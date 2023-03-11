@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Button from "@mui/material/Button";
 const App = () => {
   const propsData = {
+    
     login: {
       variant: "outlined",
       color: "secondary",
@@ -11,7 +12,7 @@ const App = () => {
       href: "./signin",
     },
     login1: {
-      children: "Button",
+      children: "Login",
       color: "secondary",
       variant: "outlined",
       size: "large",
@@ -35,7 +36,8 @@ const App = () => {
           <div className={styles.flexcontainer1}>
             <div className={styles.catabsolutecontainer}>
               <Button className={styles.logininstance1} {...propsData.login1} />
-              <span className={styles.meetyourmusaic}>Meet Your MUSAIC</span>
+              <span className={styles.meetyour}>Meet Your</span>
+              <span className={styles.musaictext}>MUSAIC</span>
               <span className={styles.gettheplaylistjus}>
                 Get the playlist just for you, with songs fit your preference.
               </span>
