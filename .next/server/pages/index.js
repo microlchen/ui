@@ -1,147 +1,79 @@
-"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 405;
-exports.ids = [405];
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
 exports.modules = {
 
-/***/ 486:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./src/styles/Home.module.css":
+/*!************************************!*\
+  !*** ./src/styles/Home.module.css ***!
+  \************************************/
+/***/ ((module) => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(828);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(968);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(819);
-/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Button__WEBPACK_IMPORTED_MODULE_3__);
-
-
-
-
-
-const App = ()=>{
-    const propsData = {
-        login: {
-            variant: "outlined",
-            color: "secondary",
-            children: "LET’S GO!",
-            href: "./signin"
-        },
-        login1: {
-            children: "Login",
-            color: "secondary",
-            variant: "outlined",
-            size: "large",
-            href: "./landingdown"
-        }
-    };
-    const untitledArtwork = "/landing/logo.png";
-    const vector = "/landing/vector1.svg";
-    const vector1 = "/landing/vector.svg";
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-        children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_2___default()), {
-                children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
-                        children: " Musiac "
-                    }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                        rel: "icon",
-                        href: "/landing/logo.png"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().landing),
-                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().flexcontainer),
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().untitledartwork4),
-                            src: untitledArtwork
-                        }),
-                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().flexcontainer1),
-                            children: [
-                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().catabsolutecontainer),
-                                    children: [
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().logininstance1),
-                                            ...propsData.login1
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().meetyour),
-                                            children: "Meet Your"
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().musaictext),
-                                            children: "MUSAIC"
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().gettheplaylistjus),
-                                            children: "Get the playlist just for you, with songs fit your preference."
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_3___default()), {
-                                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().logininstance),
-                                            ...propsData.login
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                    className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().vector1),
-                                    src: vector1
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                    className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().vector),
-                                    src: vector
-                                })
-                            ]
-                        })
-                    ]
-                })
-            })
-        ]
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
-
+eval("// Exports\nmodule.exports = {\n\t\"landing\": \"Home_landing__Nn_Kx\",\n\t\"flexcontainer\": \"Home_flexcontainer__prNOY\",\n\t\"untitledartwork4\": \"Home_untitledartwork4__mBIH6\",\n\t\"flexcontainer1\": \"Home_flexcontainer1___i0gK\",\n\t\"catabsolutecontainer\": \"Home_catabsolutecontainer__CSwmc\",\n\t\"meetyour\": \"Home_meetyour__mPoDZ\",\n\t\"musaictext\": \"Home_musaictext__JzwqD\",\n\t\"gettheplaylistjus\": \"Home_gettheplaylistjus__5oSEM\",\n\t\"logininstance\": \"Home_logininstance__VUwMA\",\n\t\"vector1\": \"Home_vector1__LRvoO\",\n\t\"logininstance1\": \"Home_logininstance1__t_ULO\",\n\t\"vector\": \"Home_vector__BmMD_\",\n\t\"landingdown\": \"Home_landingdown__ehDmX\",\n\t\"landingdownflexcontainer\": \"Home_landingdownflexcontainer__abb5w\",\n\t\"landingimage\": \"Home_landingimage__Hb3_S\",\n\t\"landingdowntext1\": \"Home_landingdowntext1__4UI78\",\n\t\"landingdowntext2\": \"Home_landingdowntext2__giG8f\",\n\t\"ellipse\": \"Home_ellipse__obCPv\",\n\t\"num20238bitsterms\": \"Home_num20238bitsterms__kUsGm\",\n\t\"signinoutercontainer\": \"Home_signinoutercontainer__QVgHi\",\n\t\"singinflexcontainer\": \"Home_singinflexcontainer__dateX\",\n\t\"signinlogo\": \"Home_signinlogo__sBXNd\",\n\t\"musaic\": \"Home_musaic__0StY0\",\n\t\"vvector1\": \"Home_vvector1__MdtLA\",\n\t\"flexcontainer11\": \"Home_flexcontainer11__5KXEX\",\n\t\"flexcontainer22\": \"Home_flexcontainer22__vbcB_\",\n\t\"rectangle1156\": \"Home_rectangle1156__U0u8r\",\n\t\"iagreewiththeter\": \"Home_iagreewiththeter__v0I2i\",\n\t\"rectangle1157instance\": \"Home_rectangle1157instance__05rD9\",\n\t\"whydoihavetolog\": \"Home_whydoihavetolog__YuzxX\",\n\t\"vector0\": \"Home_vector0__N_Zc1\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL0hvbWUubW9kdWxlLmNzcy5qcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3VpLy4vc3JjL3N0eWxlcy9Ib21lLm1vZHVsZS5jc3M/MjdhYSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJsYW5kaW5nXCI6IFwiSG9tZV9sYW5kaW5nX19Obl9LeFwiLFxuXHRcImZsZXhjb250YWluZXJcIjogXCJIb21lX2ZsZXhjb250YWluZXJfX3ByTk9ZXCIsXG5cdFwidW50aXRsZWRhcnR3b3JrNFwiOiBcIkhvbWVfdW50aXRsZWRhcnR3b3JrNF9fbUJJSDZcIixcblx0XCJmbGV4Y29udGFpbmVyMVwiOiBcIkhvbWVfZmxleGNvbnRhaW5lcjFfX19pMGdLXCIsXG5cdFwiY2F0YWJzb2x1dGVjb250YWluZXJcIjogXCJIb21lX2NhdGFic29sdXRlY29udGFpbmVyX19DU3dtY1wiLFxuXHRcIm1lZXR5b3VyXCI6IFwiSG9tZV9tZWV0eW91cl9fbVBvRFpcIixcblx0XCJtdXNhaWN0ZXh0XCI6IFwiSG9tZV9tdXNhaWN0ZXh0X19KendxRFwiLFxuXHRcImdldHRoZXBsYXlsaXN0anVzXCI6IFwiSG9tZV9nZXR0aGVwbGF5bGlzdGp1c19fNW9TRU1cIixcblx0XCJsb2dpbmluc3RhbmNlXCI6IFwiSG9tZV9sb2dpbmluc3RhbmNlX19WVXdNQVwiLFxuXHRcInZlY3RvcjFcIjogXCJIb21lX3ZlY3RvcjFfX0xSdm9PXCIsXG5cdFwibG9naW5pbnN0YW5jZTFcIjogXCJIb21lX2xvZ2luaW5zdGFuY2UxX190X1VMT1wiLFxuXHRcInZlY3RvclwiOiBcIkhvbWVfdmVjdG9yX19CbU1EX1wiLFxuXHRcImxhbmRpbmdkb3duXCI6IFwiSG9tZV9sYW5kaW5nZG93bl9fZWhEbVhcIixcblx0XCJsYW5kaW5nZG93bmZsZXhjb250YWluZXJcIjogXCJIb21lX2xhbmRpbmdkb3duZmxleGNvbnRhaW5lcl9fYWJiNXdcIixcblx0XCJsYW5kaW5naW1hZ2VcIjogXCJIb21lX2xhbmRpbmdpbWFnZV9fSGIzX1NcIixcblx0XCJsYW5kaW5nZG93bnRleHQxXCI6IFwiSG9tZV9sYW5kaW5nZG93bnRleHQxX180VUk3OFwiLFxuXHRcImxhbmRpbmdkb3dudGV4dDJcIjogXCJIb21lX2xhbmRpbmdkb3dudGV4dDJfX2dpRzhmXCIsXG5cdFwiZWxsaXBzZVwiOiBcIkhvbWVfZWxsaXBzZV9fb2JDUHZcIixcblx0XCJudW0yMDIzOGJpdHN0ZXJtc1wiOiBcIkhvbWVfbnVtMjAyMzhiaXRzdGVybXNfX2tVc0dtXCIsXG5cdFwic2lnbmlub3V0ZXJjb250YWluZXJcIjogXCJIb21lX3NpZ25pbm91dGVyY29udGFpbmVyX19RVmdIaVwiLFxuXHRcInNpbmdpbmZsZXhjb250YWluZXJcIjogXCJIb21lX3NpbmdpbmZsZXhjb250YWluZXJfX2RhdGVYXCIsXG5cdFwic2lnbmlubG9nb1wiOiBcIkhvbWVfc2lnbmlubG9nb19fc0JYTmRcIixcblx0XCJtdXNhaWNcIjogXCJIb21lX211c2FpY19fMFN0WTBcIixcblx0XCJ2dmVjdG9yMVwiOiBcIkhvbWVfdnZlY3RvcjFfX01kdExBXCIsXG5cdFwiZmxleGNvbnRhaW5lcjExXCI6IFwiSG9tZV9mbGV4Y29udGFpbmVyMTFfXzVLWEVYXCIsXG5cdFwiZmxleGNvbnRhaW5lcjIyXCI6IFwiSG9tZV9mbGV4Y29udGFpbmVyMjJfX3ZiY0JfXCIsXG5cdFwicmVjdGFuZ2xlMTE1NlwiOiBcIkhvbWVfcmVjdGFuZ2xlMTE1Nl9fVTB1OHJcIixcblx0XCJpYWdyZWV3aXRodGhldGVyXCI6IFwiSG9tZV9pYWdyZWV3aXRodGhldGVyX192MEkyaVwiLFxuXHRcInJlY3RhbmdsZTExNTdpbnN0YW5jZVwiOiBcIkhvbWVfcmVjdGFuZ2xlMTE1N2luc3RhbmNlX18wNXJEOVwiLFxuXHRcIndoeWRvaWhhdmV0b2xvZ1wiOiBcIkhvbWVfd2h5ZG9paGF2ZXRvbG9nX19ZdXp4WFwiLFxuXHRcInZlY3RvcjBcIjogXCJIb21lX3ZlY3RvcjBfX05fWmMxXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/styles/Home.module.css\n");
 
 /***/ }),
 
-/***/ 819:
+/***/ "./src/pages/index.js":
+/*!****************************!*\
+  !*** ./src/pages/index.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/styles/Home.module.css */ \"./src/styles/Home.module.css\");\n/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material/Button */ \"@mui/material/Button\");\n/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Button__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\nconst App = ()=>{\n    const propsData = {\n        login: {\n            variant: \"outlined\",\n            color: \"secondary\",\n            children: \"LET’S GO!\",\n            href: \"./signin\"\n        },\n        login1: {\n            children: \"Login\",\n            color: \"secondary\",\n            variant: \"outlined\",\n            size: \"large\",\n            href: \"./landingdown\"\n        }\n    };\n    const untitledArtwork = \"/landing/logo.png\";\n    const vector = \"/landing/vector1.svg\";\n    const vector1 = \"/landing/vector.svg\";\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_2___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \" Musiac \"\n                    }, void 0, false, {\n                        fileName: \"/workspaces/ui/src/pages/index.js\",\n                        lineNumber: 29,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"icon\",\n                        href: \"/landing/logo.png\"\n                    }, void 0, false, {\n                        fileName: \"/workspaces/ui/src/pages/index.js\",\n                        lineNumber: 30,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/workspaces/ui/src/pages/index.js\",\n                lineNumber: 28,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().landing),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().flexcontainer),\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().untitledartwork4),\n                            src: untitledArtwork\n                        }, void 0, false, {\n                            fileName: \"/workspaces/ui/src/pages/index.js\",\n                            lineNumber: 35,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().flexcontainer1),\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().catabsolutecontainer),\n                                    children: [\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Button__WEBPACK_IMPORTED_MODULE_3___default()), {\n                                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().logininstance1),\n                                            ...propsData.login1\n                                        }, void 0, false, {\n                                            fileName: \"/workspaces/ui/src/pages/index.js\",\n                                            lineNumber: 38,\n                                            columnNumber: 15\n                                        }, undefined),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().meetyour),\n                                            children: \"Meet Your\"\n                                        }, void 0, false, {\n                                            fileName: \"/workspaces/ui/src/pages/index.js\",\n                                            lineNumber: 39,\n                                            columnNumber: 15\n                                        }, undefined),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().musaictext),\n                                            children: \"MUSAIC\"\n                                        }, void 0, false, {\n                                            fileName: \"/workspaces/ui/src/pages/index.js\",\n                                            lineNumber: 40,\n                                            columnNumber: 15\n                                        }, undefined),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().gettheplaylistjus),\n                                            children: \"Get the playlist just for you, with songs fit your preference.\"\n                                        }, void 0, false, {\n                                            fileName: \"/workspaces/ui/src/pages/index.js\",\n                                            lineNumber: 41,\n                                            columnNumber: 15\n                                        }, undefined),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((_mui_material_Button__WEBPACK_IMPORTED_MODULE_3___default()), {\n                                            className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().logininstance),\n                                            ...propsData.login\n                                        }, void 0, false, {\n                                            fileName: \"/workspaces/ui/src/pages/index.js\",\n                                            lineNumber: 44,\n                                            columnNumber: 15\n                                        }, undefined)\n                                    ]\n                                }, void 0, true, {\n                                    fileName: \"/workspaces/ui/src/pages/index.js\",\n                                    lineNumber: 37,\n                                    columnNumber: 13\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                    className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().vector1),\n                                    src: vector1\n                                }, void 0, false, {\n                                    fileName: \"/workspaces/ui/src/pages/index.js\",\n                                    lineNumber: 47,\n                                    columnNumber: 13\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                    className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_4___default().vector),\n                                    src: vector\n                                }, void 0, false, {\n                                    fileName: \"/workspaces/ui/src/pages/index.js\",\n                                    lineNumber: 48,\n                                    columnNumber: 13\n                                }, undefined)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/workspaces/ui/src/pages/index.js\",\n                            lineNumber: 36,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/workspaces/ui/src/pages/index.js\",\n                    lineNumber: 34,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/workspaces/ui/src/pages/index.js\",\n                lineNumber: 33,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvaW5kZXguanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7O0FBQStCO0FBQ2M7QUFDakI7QUFDYztBQUMxQyxNQUFNSSxNQUFNLElBQU07SUFDaEIsTUFBTUMsWUFBWTtRQUVoQkMsT0FBTztZQUNMQyxTQUFTO1lBQ1RDLE9BQU87WUFDUEMsVUFBVTtZQUNWQyxNQUFNO1FBQ1I7UUFDQUMsUUFBUTtZQUNORixVQUFVO1lBQ1ZELE9BQU87WUFDUEQsU0FBUztZQUNUSyxNQUFNO1lBQ05GLE1BQU07UUFDUjtJQUNGO0lBQ0EsTUFBTUcsa0JBQWtCO0lBQ3hCLE1BQU1DLFNBQVM7SUFDZixNQUFNQyxVQUFVO0lBRWhCLHFCQUNFOzswQkFDRSw4REFBQ2Isa0RBQUlBOztrQ0FDSCw4REFBQ2M7a0NBQU07Ozs7OztrQ0FDUCw4REFBQ0M7d0JBQUtDLEtBQUk7d0JBQU9SLE1BQUs7Ozs7Ozs7Ozs7OzswQkFHeEIsOERBQUNTO2dCQUFJQyxXQUFXbkIsd0VBQWM7MEJBQzVCLDRFQUFDa0I7b0JBQUlDLFdBQVduQiw4RUFBb0I7O3NDQUNsQyw4REFBQ3NCOzRCQUFJSCxXQUFXbkIsaUZBQXVCOzRCQUFFd0IsS0FBS1o7Ozs7OztzQ0FDOUMsOERBQUNNOzRCQUFJQyxXQUFXbkIsK0VBQXFCOzs4Q0FDbkMsOERBQUNrQjtvQ0FBSUMsV0FBV25CLHFGQUEyQjs7c0RBQ3pDLDhEQUFDRSw2REFBTUE7NENBQUNpQixXQUFXbkIsK0VBQXFCOzRDQUFHLEdBQUdJLFVBQVVNLE1BQU07Ozs7OztzREFDOUQsOERBQUNrQjs0Q0FBS1QsV0FBV25CLHlFQUFlO3NEQUFFOzs7Ozs7c0RBQ2xDLDhEQUFDNEI7NENBQUtULFdBQVduQiwyRUFBaUI7c0RBQUU7Ozs7OztzREFDcEMsOERBQUM0Qjs0Q0FBS1QsV0FBV25CLGtGQUF3QjtzREFBRTs7Ozs7O3NEQUczQyw4REFBQ0UsNkRBQU1BOzRDQUFDaUIsV0FBV25CLDhFQUFvQjs0Q0FBRyxHQUFHSSxVQUFVQyxLQUFLOzs7Ozs7Ozs7Ozs7OENBRzlELDhEQUFDaUI7b0NBQUlILFdBQVduQix3RUFBYztvQ0FBRXdCLEtBQUtWOzs7Ozs7OENBQ3JDLDhEQUFDUTtvQ0FBSUgsV0FBV25CLHVFQUFhO29DQUFFd0IsS0FBS1g7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFVaEQ7QUFDQSxpRUFBZVYsR0FBR0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3VpLy4vc3JjL3BhZ2VzL2luZGV4LmpzPzQwODAiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICogYXMgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgc3R5bGVzIGZyb20gJ0Avc3R5bGVzL0hvbWUubW9kdWxlLmNzcydcbmltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCBCdXR0b24gZnJvbSBcIkBtdWkvbWF0ZXJpYWwvQnV0dG9uXCI7XG5jb25zdCBBcHAgPSAoKSA9PiB7XG4gIGNvbnN0IHByb3BzRGF0YSA9IHtcbiAgICBcbiAgICBsb2dpbjoge1xuICAgICAgdmFyaWFudDogXCJvdXRsaW5lZFwiLFxuICAgICAgY29sb3I6IFwic2Vjb25kYXJ5XCIsXG4gICAgICBjaGlsZHJlbjogXCJMRVTigJlTIEdPIVwiLFxuICAgICAgaHJlZjogXCIuL3NpZ25pblwiLFxuICAgIH0sXG4gICAgbG9naW4xOiB7XG4gICAgICBjaGlsZHJlbjogXCJMb2dpblwiLFxuICAgICAgY29sb3I6IFwic2Vjb25kYXJ5XCIsXG4gICAgICB2YXJpYW50OiBcIm91dGxpbmVkXCIsXG4gICAgICBzaXplOiBcImxhcmdlXCIsXG4gICAgICBocmVmOiBcIi4vbGFuZGluZ2Rvd25cIixcbiAgICB9LFxuICB9O1xuICBjb25zdCB1bnRpdGxlZEFydHdvcmsgPSBcIi9sYW5kaW5nL2xvZ28ucG5nXCI7XG4gIGNvbnN0IHZlY3RvciA9IFwiL2xhbmRpbmcvdmVjdG9yMS5zdmdcIjtcbiAgY29uc3QgdmVjdG9yMSA9IFwiL2xhbmRpbmcvdmVjdG9yLnN2Z1wiO1xuXG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxIZWFkPlxuICAgICAgICA8dGl0bGU+IE11c2lhYyA8L3RpdGxlPlxuICAgICAgICA8bGluayByZWw9XCJpY29uXCIgaHJlZj1cIi9sYW5kaW5nL2xvZ28ucG5nXCIgLz5cbiAgICAgIDwvSGVhZD5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5sYW5kaW5nfT5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5mbGV4Y29udGFpbmVyfT5cbiAgICAgICAgICA8aW1nIGNsYXNzTmFtZT17c3R5bGVzLnVudGl0bGVkYXJ0d29yazR9IHNyYz17dW50aXRsZWRBcnR3b3JrfSAvPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuZmxleGNvbnRhaW5lcjF9PlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5jYXRhYnNvbHV0ZWNvbnRhaW5lcn0+XG4gICAgICAgICAgICAgIDxCdXR0b24gY2xhc3NOYW1lPXtzdHlsZXMubG9naW5pbnN0YW5jZTF9IHsuLi5wcm9wc0RhdGEubG9naW4xfSAvPlxuICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e3N0eWxlcy5tZWV0eW91cn0+TWVldCBZb3VyPC9zcGFuPlxuICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e3N0eWxlcy5tdXNhaWN0ZXh0fT5NVVNBSUM8L3NwYW4+XG4gICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT17c3R5bGVzLmdldHRoZXBsYXlsaXN0anVzfT5cbiAgICAgICAgICAgICAgICBHZXQgdGhlIHBsYXlsaXN0IGp1c3QgZm9yIHlvdSwgd2l0aCBzb25ncyBmaXQgeW91ciBwcmVmZXJlbmNlLlxuICAgICAgICAgICAgICA8L3NwYW4+XG4gICAgICAgICAgICAgIDxCdXR0b24gY2xhc3NOYW1lPXtzdHlsZXMubG9naW5pbnN0YW5jZX0gey4uLnByb3BzRGF0YS5sb2dpbn0gLz5cblxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8aW1nIGNsYXNzTmFtZT17c3R5bGVzLnZlY3RvcjF9IHNyYz17dmVjdG9yMX0gLz5cbiAgICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPXtzdHlsZXMudmVjdG9yfSBzcmM9e3ZlY3Rvcn0gLz5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG5cblxuICAgICAgPC9kaXY+XG5cblxuICAgIDwvPlxuICApO1xufTtcbmV4cG9ydCBkZWZhdWx0IEFwcDtcbiJdLCJuYW1lcyI6WyJSZWFjdCIsInN0eWxlcyIsIkhlYWQiLCJCdXR0b24iLCJBcHAiLCJwcm9wc0RhdGEiLCJsb2dpbiIsInZhcmlhbnQiLCJjb2xvciIsImNoaWxkcmVuIiwiaHJlZiIsImxvZ2luMSIsInNpemUiLCJ1bnRpdGxlZEFydHdvcmsiLCJ2ZWN0b3IiLCJ2ZWN0b3IxIiwidGl0bGUiLCJsaW5rIiwicmVsIiwiZGl2IiwiY2xhc3NOYW1lIiwibGFuZGluZyIsImZsZXhjb250YWluZXIiLCJpbWciLCJ1bnRpdGxlZGFydHdvcms0Iiwic3JjIiwiZmxleGNvbnRhaW5lcjEiLCJjYXRhYnNvbHV0ZWNvbnRhaW5lciIsImxvZ2luaW5zdGFuY2UxIiwic3BhbiIsIm1lZXR5b3VyIiwibXVzYWljdGV4dCIsImdldHRoZXBsYXlsaXN0anVzIiwibG9naW5pbnN0YW5jZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/index.js\n");
+
+/***/ }),
+
+/***/ "@mui/material/Button":
+/*!***************************************!*\
+  !*** external "@mui/material/Button" ***!
+  \***************************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("@mui/material/Button");
 
 /***/ }),
 
-/***/ 968:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("next/head");
 
 /***/ }),
 
-/***/ 689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
+"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -152,7 +84,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [828], () => (__webpack_exec__(486)));
+var __webpack_exports__ = (__webpack_exec__("./src/pages/index.js"));
 module.exports = __webpack_exports__;
 
 })();
