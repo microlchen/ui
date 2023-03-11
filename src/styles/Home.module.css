@@ -12,7 +12,7 @@ Landing
   justify-content: space-between;
   align-items: flex-end;
   padding-right: 2px;
-  font-family: Inter, Arial;
+  font-family: Inter, sans-serif;
   font-size: 7.5rem;
   font-weight: 300;
   line-height: 14px;
@@ -30,12 +30,14 @@ Landing
 }
 
 .untitledartwork4 {
-  width: 147px;
-  height: 118px;
+  width: 10%;
+  height: 10%;
   object-fit: cover;
   background-position: center;
   background-size: cover;
-  margin-top: 54px;
+  margin-top: 50px;
+  margin-left: 4%;
+
 }
 
 .flexcontainer1 {
@@ -60,22 +62,30 @@ Landing
   display: flex;
 }
 
-.meetyourmusaic {
-  letter-spacing: normal;
-  margin-top: 20%;
-  margin-bottom: 2%;
+.meetyour {
+  letter-spacing: 3px;
+  margin-top: 14%;
+  margin-bottom: 60px;
+  color: #e6e1fa;
 
+  font-size: 3.2rem;
+  font-weight: 100;
+}
+
+.musaictext {
+  letter-spacing: 10px;
+  margin-bottom: 40px;
   
-  font-size: 5rem;
+  font-size: 4.5rem;
+  font-weight: 500;
 }
 
 .gettheplaylistjus {
   letter-spacing: 1px;
   color: #cad6ff;
   margin-bottom: 53px;
-  margin-left: 7px;
-  font-size: 1.25rem;
-  line-height: 28px;
+  font-size: 0.8rem;
+  line-height: 28px
 }
 
 .logininstance {
@@ -98,7 +108,7 @@ Landing
 .logininstance1 {
   width: 15%;
   flex-basis: 6%;
-  margin-top: 5%;
+  margin-top: 7%;
   align-self: flex-end;
 }
 
