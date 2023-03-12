@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 const App = () => {
   const ellipse = "/landingdown/ellipse.svg";
-  const group = "/landingdown/group.svg";
-  const logo = "/landingdown/logo.svg";
+  const group = "/landingdown/grouptgr.png";
+  const logo = "/landingdown/logo.png";
   const group1 = "/landingdown/group1.svg"
   const untitledArtwork = "/landing/logo.png";
   const vector = "/landing/vector1.svg";
@@ -79,10 +79,9 @@ const App = () => {
       </div>
 
       <div className={styles.landingdown}>
-      <div className={styles.flexcontainer}></div>
-
-        <div className={styles.landingdownflexcontainer}>
-          <img className={styles.landingimage} src={group} />
+      <img className={styles.landingimage1} src={group} />
+        {/* <div className={styles.landingdownflexcontainer}>
+          <img className={styles.landingimage1} src={group} />
           <div className={styles.flexcontainer}></div>
 
           <span className={styles.landingdowntext1}>
@@ -98,7 +97,7 @@ const App = () => {
         <img className={styles.ellipse} src={ellipse} />
         <div className={styles.flexcontainer}></div>
         <div className={styles.landingdownflexcontainer}>
-          <img className={styles.landingimage} src={logo} />
+          <img className={styles.landingimage2} src={logo} />
           <span className={styles.landingdowntext1}>WHENEVER</span>
           <span className={styles.landingdowntextsmall}>You Are</span>
           <span className={styles.landingdowntext2}>
@@ -110,7 +109,7 @@ const App = () => {
         <img className={styles.ellipse} src={ellipse} />
         <div className={styles.flexcontainer}></div>
         <div className={styles.landingdownflexcontainer}>
-          <img className={styles.landingimage} src={group1} />
+          <img className={styles.landingimage3} src={group1} />
           <span className={styles.landingdowntext1}>WHOEVER</span>
           <span className={styles.landingdowntextsmall}>You’re With</span>
           <span className={styles.landingdowntext2}>
@@ -118,7 +117,7 @@ const App = () => {
             friend
           </span>
         </div>
-        <div className={styles.flexcontainer}></div>
+        <div className={styles.flexcontainer}></div> */}
 
 
 

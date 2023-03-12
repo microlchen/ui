@@ -2,7 +2,7 @@ import * as React from "react";
 import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 import Button from "@mui/material/Button";
-import { Box } from "@mui/material";
+import Link from 'next/link'
 
 const App = () => {
   const rectangle = "/signin/rectangle.svg";
@@ -19,7 +19,7 @@ const App = () => {
       <div className={styles.landing}>
         <div className={styles.signinoutercontainer}>
           <div className={styles.signinflexcontainer}>
-            <img className={styles.signinlogo} src={logo} />
+          <Button href="/"><img className={styles.signinlogo} src={logo} /></Button>
           </div>
           <img className={styles.vvector1} src={vector} />
           <div className={styles.flexcontainer11}>

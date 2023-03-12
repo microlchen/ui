@@ -53,10 +53,10 @@ Landing
 
 .navigatepages {
   margin-top: 8%;
-  margin-left: 3%;
+  margin-left: 1.5%;
   height: 3%;
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   line-height: 14px;
   /* identical to box height, or 70% */
   text-align: center;
@@ -93,7 +93,7 @@ Landing
   margin-left: 15%;
   color: #e6e1fa;
 
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 100;
 }
 
@@ -103,7 +103,7 @@ Landing
   margin-left: 15%;
 
   
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 500;
 }
 
@@ -112,13 +112,13 @@ Landing
   color: #cad6ff;
   margin-bottom: 53px;
   font-size: 0.8rem;
-  line-height: 28px;
+  line-height: 20px;
   margin-left: 15%;
 
 }
 
 .logininstance {
-  width: 23%;
+  width: 200px;
   height: 5%;
   flex-basis: 50px;
   margin-top: 1px;
@@ -193,8 +193,8 @@ Landing
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: 2%;
-  margin-left: 2%;
+  /* margin-left: 2%; */
+  margin-top: 10%;
 
  
   font-family: Inter, sans-serif;
@@ -215,9 +215,22 @@ Landing
   margin-bottom: 20%;
 }
 
-.landingimage {
-  width: 80px;
-  height: 100px;
+.landingimage1 {
+  width: 90%;
+  height: 90%;
+  align-self: center;
+  margin-bottom: 10%;
+}
+
+.landingimage2 {
+  width: 20%;
+  height: 50%;
+  margin-bottom: 5%;
+}
+
+.landingimage3 {
+  width: 20%;
+  height: 20%;
   margin-bottom: 5%;
 }
 
@@ -268,10 +281,9 @@ Landing
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1%;
  
   font-family: Inter, sans-serif;
-  font-size: 0.938rem;
+  font-size: 0.6rem;
   font-weight: 40;
   
   display: flex;
@@ -286,11 +298,12 @@ Landing
   flex-direction: row;
  
   font-family: Inter, sans-serif;
-  font-size: 0.938rem;
+  font-size: 0.75rem;
   font-weight: 40;
   
   display: flex;
 }
+
 .num20238bitstermsbtext{
   letter-spacing: 1px;
   color: #fff;
@@ -301,8 +314,9 @@ Landing
 
  
   font-family: Inter, sans-serif;
-  font-size: 0.938rem;
+  font-size: 0.75rem;
   font-weight: 40;
+  margin-bottom: 2%;
 
 }
 
