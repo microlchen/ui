@@ -2,27 +2,13 @@ import * as React from "react";
 import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 import Button from "@mui/material/Button";
+import Link from 'next/link'
+
 const App = () => {
   const ellipse = "/landingdown/ellipse.svg";
   const group = "/landingdown/group.svg";
   const logo = "/landingdown/logo.svg";
   const group1 = "/landingdown/group1.svg"
-  const propsData = {
-    secondary: "#8791F9",
-    login: {
-      variant: "outlined",
-      color: "secondary",
-      children: "LET’S GO!",
-      href: "./signin",
-    },
-    login1: {
-      children: "Login",
-      color: "secondary",
-      variant: "outlined",
-      size: "large",
-      href: "./landingdown",
-    },
-  };
   const untitledArtwork = "/landing/logo.png";
   const vector = "/landing/vector1.svg";
   const vector1 = "/landing/vector.svg";
@@ -44,7 +30,7 @@ const App = () => {
           <Button variant="text" className={styles.navigatepages}>Gallery</Button>
           {/* </div>x */}
           <div className={styles.flexcontainer}></div>
-          <Button className={styles.logininstance1} {...propsData.login1} />
+          <Button className={styles.logininstance1} href = "./signin">Login</Button>
         </div>
 
         <div className={styles.flexcontainer}>
@@ -55,7 +41,7 @@ const App = () => {
               <span className={styles.gettheplaylistjus}>
                 Get the playlist just for you, with songs fit your preference.
               </span>
-              <Button className={styles.logininstance} {...propsData.login} />
+              <Button className={styles.logininstance} href = "./signin">LET’S GO!</Button>
 
             </div>
             <img className={styles.vector1} src={vector1} />
@@ -63,16 +49,22 @@ const App = () => {
           </div>
         </div>
         <div className={styles.flexcontainer}>
-        {/* <img className={styles.num20238bitsterms} src={tri} /> */}
+        <div className={styles.flexcontainer}></div>
+
+        <img className={styles.tri} src={tri} />
+        <div className={styles.flexcontainer}></div>
+
         </div>
 
       </div>
 
       <div className={styles.landingdown}>
+      <div className={styles.flexcontainer}></div>
 
         <div className={styles.landingdownflexcontainer}>
           <img className={styles.landingimage} src={group} />
-          <span className={styles.landingdowntext1}>MUSIC U Like</span>
+          <span className={styles.landingdowntext1}>MUSIC</span>
+          <span className={styles.landingdowntextsmall}>You Like</span>
           <span className={styles.landingdowntext2}>
             Pick song features you prefer by using our VIBE PICKER feature to
             customize your playlist
@@ -81,30 +73,33 @@ const App = () => {
         <img className={styles.ellipse} src={ellipse} />
         <div className={styles.landingdownflexcontainer}>
           <img className={styles.landingimage} src={logo} />
-          <span className={styles.landingdowntext1}>WHEREEVER You Are</span>
+          <span className={styles.landingdowntext1}>WHENEVER</span>
+          <span className={styles.landingdowntextsmall}>You Are</span>
           <span className={styles.landingdowntext2}>
             Link to your SPOTIFY account to enjoy simple but exciting personalized
             music experience{" "}
           </span>
-
         </div>
         <img className={styles.ellipse} src={ellipse} />
         <div className={styles.landingdownflexcontainer}>
           <img className={styles.landingimage} src={group1} />
-          <span className={styles.landingdowntext1}>WHOEVER You’re With</span>
+          <span className={styles.landingdowntext1}>WHOEVER</span>
+          <span className={styles.landingdowntextsmall}>You’re With</span>
           <span className={styles.landingdowntext2}>
             Check our FRIEND MATCH feature to get mixed playlist for you and your
             friend
           </span>
         </div>
+        <div className={styles.flexcontainer}></div>
+
 
 
       </div>
-
       <span className={styles.num20238bitsterms}>
-        @2023 8BITS Terms of Service Privacy Policy
+        <span className={styles.num20238bitstermsbtext}>@2023 8BITS</span>
+        <Link href="/" className={styles.num20238bitstermsbtext}>Terms of Service</Link>
+        <Link href="/" className={styles.num20238bitstermsbtext}>Privacy Policy</Link>
       </span>
-
 
     </div>
   );

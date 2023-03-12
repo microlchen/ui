@@ -17,7 +17,6 @@ Landing
   padding-right: 2px;
   font-family: Inter, sans-serif;
   font-size: 7.5rem;
-  font-weight: 300;
   line-height: 14px;
   display: flex;
 }
@@ -160,7 +159,12 @@ Landing
 }
 
 .tri {
-  
+  width: 1.6%;
+  height: 1.6%;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*
@@ -169,67 +173,80 @@ Landing
 
 .landingdown {
   text-align: center;
-  color: #fff;
+  color: #cad6ff;
   width: 100%;
   height: 100%;
   background-color: #191722;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  margin-left: 2%;
+  margin-left: 2%;
+
  
   font-family: Inter, sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
   
   display: flex;
-  overflow: auto;
 }
 
 .landingdownflexcontainer {
   height: 60%;
   flex-direction: column;
-  justify-content: space-between;
-  align-self: flex-start;
+  justify-content: space-evenly;
+  align-self: center;
   align-items: center;
-  margin-left: 1%;
-  margin-right: 1%;
   display: flex;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-bottom: 20%;
 }
 
 .landingimage {
-  width: 100px;
+  width: 80px;
   height: 100px;
   margin-bottom: 3%;
 }
 
 .landingdowntext1 {
-  letter-spacing: 1px;
-  margin-top: 2%;
+  letter-spacing: 5px;
+  margin-top: 8%;
+  margin-bottom: 8%;
+
   display: flex;
-  line-height: 10px;
+  line-height: 3px;
   font-size: 2rem;
+  font-weight: 1000;
+}
+
+.landingdowntextsmall {
+  letter-spacing: 1px;
+  margin-bottom: 8%;
+
+  display: flex;
+  font-size: 1rem;
+  font-weight: 300;
+
 }
 
 .landingdowntext2 {
   margin-top: 5%;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 300;
   display: flex;
-  line-height: 15px;
+  line-height: 20px;
 }
 
 .ellipse {
-  width: 2%;
+  width: 1.5%;
   height: 2%;
   margin-top: 2%;
-  object-fit: cover;
   margin-left: 1%;
   margin-right: 1%;
 }
 
 .num20238bitsterms {
+  letter-spacing: 1px;
   text-align: center;
   color: #fff;
   width: 100%;
@@ -238,7 +255,7 @@ Landing
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 23px;
+  margin-bottom: 1%;
  
   font-family: Inter, sans-serif;
   font-size: 0.938rem;
@@ -246,6 +263,56 @@ Landing
   
   display: flex;
   overflow: auto;
+}
+
+.num20238bitstermsb{
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  background-color: #191722;
+  flex-direction: row;
+ 
+  font-family: Inter, sans-serif;
+  font-size: 0.938rem;
+  font-weight: 40;
+  
+  display: flex;
+}
+.num20238bitstermsbtext{
+  letter-spacing: 1px;
+  color: #fff;
+  width: 15%;
+  height: 100%;
+  background-color: #191722;
+  flex-direction: row;
+
+ 
+  font-family: Inter, sans-serif;
+  font-size: 0.938rem;
+  font-weight: 40;
+
+}
+
+.box{
+  letter-spacing: 1px;
+  text-align: center;
+  color: #191722;
+  width: 100%;
+  height: 100%;
+  background-color: #191722;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+  font-family: Inter, sans-serif;
+  font-size: 0.938rem;
+  font-weight: 40;
+  
+  display: flex;
+  overflow: auto;
+  height: 10%;
+  width: 100%;
+
 }
 
 /*
