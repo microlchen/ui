@@ -44,6 +44,13 @@ Landing
 
 }
 
+.buttontext {
+  color: #cad6ff;
+  align-self: center;
+  flex-direction: row;
+
+}
+
 .navigatepages {
   margin-top: 8%;
   margin-left: 3%;
@@ -116,7 +123,9 @@ Landing
   flex-basis: 50px;
   margin-top: 1px;
   margin-left: 15%;
-
+  align-items: stretch;
+  justify-content: space-around;
+  flex-direction: row;
   color: #cad6ff;
 
   background: linear-gradient(181.07deg, #8B60F4 -17.9%, #6066F4 99.08%);
@@ -125,8 +134,11 @@ Landing
   border-radius: 14px;
 }
 
-.buttontext {
+.logininstancetext {
   color: #cad6ff;
+  align-self: center;
+  flex-direction: row;
+  letter-spacing: 3px;
 
 }
 
@@ -147,11 +159,21 @@ Landing
 
   margin-top: 7%;
   margin-right: 7%;
+  flex-direction: row;
+  align-content: center;
 
   color: #8791F9;
 
   border: 0.8px solid #8791F9;
   border-radius: 14px;
+}
+
+.logininstance1text {
+  width: 80%;
+  flex-direction: row;
+  align-self: center;
+
+  color: #8791F9;
 }
 
 .vector {

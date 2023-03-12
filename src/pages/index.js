@@ -30,11 +30,23 @@ const App = () => {
             <span className={styles.buttontext}>About</span>
             </Button>
           </div>
-          <Button variant="text" className={styles.navigatepages}>People</Button>
-          <Button variant="text" className={styles.navigatepages}>Gallery</Button>
-          {/* </div>x */}
+          <div className={styles.navigatepages}>
+            <Button variant="text" >
+            <span className={styles.buttontext}>People</span>
+            </Button>
+          </div>
+          <div className={styles.navigatepages}>
+            <Button variant="text" >
+            <span className={styles.buttontext}>Gallery</span>
+            </Button>
+          </div>
           <div className={styles.flexcontainer}></div>
-          <Button className={styles.logininstance1} href = "./signin">Login</Button>
+          
+          <div className={styles.logininstance1}>
+            <Button href = "./signin">
+            <span className={styles.logininstance1text}>Login</span>
+            </Button>
+          </div>
         </div>
 
         <div className={styles.flexcontainer}>
@@ -45,7 +57,11 @@ const App = () => {
               <span className={styles.gettheplaylistjus}>
                 Get the playlist just for you, with songs fit your preference.
               </span>
-              <Button className={styles.logininstance} href = "./signin">LET’S GO!</Button>
+              <div className={styles.logininstance}>
+                <Button href = "./signin">
+                <span className={styles.logininstancetext}>LET’S GO!</span>
+                </Button>
+              </div>
 
             </div>
             <img className={styles.vector1} src={vector1} />
