@@ -64,7 +64,7 @@ Landing
 
 .meetyour {
   letter-spacing: 3px;
-  margin-top: 14%;
+  margin-top: 20%;
   margin-bottom: 60px;
   color: #e6e1fa;
 
@@ -90,7 +90,7 @@ Landing
 
 .logininstance {
   width: 30%;
-  flex-basis: 7%;
+  flex-basis: 50px;
   margin-top: 1px;
   margin-right: 54px;
 }
@@ -108,7 +108,8 @@ Landing
 .logininstance1 {
   width: 15%;
   flex-basis: 6%;
-  margin-top: 7%;
+  margin-top: 300px;
+  color: #8791F9;
   align-self: flex-end;
 }
 
