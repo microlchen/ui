@@ -1,6 +1,10 @@
 /*
 Landing
 */
+.all{
+  background-color: #191722;
+}
+
 .landing {
   color: #c1c8ff;
   width: 100%;
@@ -40,6 +44,19 @@ Landing
 
 }
 
+.navigatepages {
+margin-top: 8%;
+margin-left: 5%;
+height: 3%;
+font-weight: 300;
+font-size: 0.8rem;
+line-height: 14px;
+/* identical to box height, or 70% */
+text-align: center;
+
+color: #CAD6FF;
+}
+
 .flexcontainer1 {
   height: 100%;
   flex-direction: column;
@@ -66,6 +83,7 @@ Landing
   letter-spacing: 3px;
   margin-top: 16%;
   margin-bottom: 60px;
+  margin-left: 20%;
   color: #e6e1fa;
 
   font-size: 3.2rem;
@@ -90,9 +108,16 @@ Landing
 
 .logininstance {
   width: 30%;
+  height: 5%;
   flex-basis: 50px;
   margin-top: 1px;
   margin-right: 54px;
+  color: #cad6ff;
+
+  background: linear-gradient(181.07deg, #8B60F4 -17.9%, #6066F4 99.08%);
+  box-shadow: 0px 7px 22px rgba(33, 123, 244, 0.34);
+  border-width: 0px;
+  border-radius: 14px;
 }
 
 .vector1 {
@@ -107,11 +132,16 @@ Landing
 
 .logininstance1 {
   width: 15%;
+  height: 5%;
+
   flex-basis: 6%;
   margin-top: 5%;
   color: #8791F9;
-  border-color: #8791F9;
   align-self: flex-end;
+  box-sizing: border-box;
+
+border: 1px solid #8791F9;
+border-radius: 14px;
 }
 
 .vector {
@@ -136,7 +166,7 @@ Landing
   justify-content: center;
   align-items: center;
  
-  font-family: Inter, Arial;
+  font-family: Inter, sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
   
@@ -189,10 +219,22 @@ Landing
 }
 
 .num20238bitsterms {
-  color: #cad6ff;
-  margin-top: 26px;
-  font-size: .938rem;
-  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  background-color: #191722;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+ 
+  font-family: Inter, sans-serif;
+  font-size: 0.938rem;
+  font-weight: 40;
+  
+  display: flex;
+  overflow: auto;
 }
 
 /*

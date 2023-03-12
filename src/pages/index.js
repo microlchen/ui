@@ -3,6 +3,10 @@ import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 import Button from "@mui/material/Button";
 const App = () => {
+  const ellipse = "/landingdown/ellipse.svg";
+  const group = "/landingdown/group.svg";
+  const logo = "/landingdown/logo.svg";
+  const group1 = "/landingdown/group1.svg"
   const propsData = {
     secondary: "#8791F9",
     login: {
@@ -24,7 +28,7 @@ const App = () => {
   const vector1 = "/landing/vector.svg";
 
   return (
-    <>
+    <div className={styles.all}>
       <Head>
         <title> Musiac </title>
         <link rel="icon" href="/landing/logo.png" />
@@ -33,6 +37,10 @@ const App = () => {
       <div className={styles.landing} style = {{marginLeft:0}}>
         <div className={styles.flexcontainer}>
           <img className={styles.untitledartwork4} src={untitledArtwork} />
+          <Button variant="text" className={styles.navigatepages}>About</Button>
+        </div>
+
+        <div className={styles.flexcontainer}>
           <div className={styles.flexcontainer1}>
             <div className={styles.catabsolutecontainer}>
               <Button className={styles.logininstance1} {...propsData.login1} />
@@ -52,8 +60,45 @@ const App = () => {
 
       </div>
 
+      <div className={styles.landingdown}>
 
-    </>
+        <div className={styles.landingdownflexcontainer}>
+          <img className={styles.landingimage} src={group} />
+          <span className={styles.landingdowntext1}>MUSIC U Like</span>
+          <span className={styles.landingdowntext2}>
+            Pick song features you prefer by using our VIBE PICKER feature to
+            customize your playlist
+          </span>
+        </div>
+        <img className={styles.ellipse} src={ellipse} />
+        <div className={styles.landingdownflexcontainer}>
+          <img className={styles.landingimage} src={logo} />
+          <span className={styles.landingdowntext1}>WHEREEVER You Are</span>
+          <span className={styles.landingdowntext2}>
+            Link to your SPOTIFY account to enjoy simple but exciting personalized
+            music experience{" "}
+          </span>
+
+        </div>
+        <img className={styles.ellipse} src={ellipse} />
+        <div className={styles.landingdownflexcontainer}>
+          <img className={styles.landingimage} src={group1} />
+          <span className={styles.landingdowntext1}>WHOEVER You’re With</span>
+          <span className={styles.landingdowntext2}>
+            Check our FRIEND MATCH feature to get mixed playlist for you and your
+            friend
+          </span>
+        </div>
+
+
+      </div>
+
+      <span className={styles.num20238bitsterms}>
+        @2023 8BITS Terms of Service Privacy Policy
+      </span>
+
+
+    </div>
   );
 };
 export default App;
