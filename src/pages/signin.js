@@ -2,6 +2,7 @@ import * as React from "react";
 import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 import Button from "@mui/material/Button";
+import { Box } from "@mui/material";
 
 const App = () => {
   const propsData = {
@@ -14,10 +15,10 @@ const App = () => {
   };
   const rectangle = "/signin/rectangle.svg";
   const vector = "/signin/linevector.svg";
-  const logo = "/landing/logo.png";
+  const logo = "/signin/logotext.png";
   const vector2 = "/signin/vector0.svg";
   return (
-    <>
+    <div className={styles.all}>
       <Head>
         <title> Musiac </title>
         <link rel="icon" href={logo} />
@@ -26,7 +27,6 @@ const App = () => {
         <div className={styles.signinoutercontainer}>
           <div className={styles.signinflexcontainer}>
             <img className={styles.signinlogo} src={logo} />
-            <span className={styles.musaic}>MUSAIC</span>
           </div>
           <img className={styles.vvector1} src={vector} />
           <div className={styles.flexcontainer11}>
@@ -46,7 +46,8 @@ const App = () => {
         </div>
         <img className={styles.vector0} src={vector2} />
       </div>
-    </>
+
+    </div>
   );
 };
 export default App;

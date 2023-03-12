@@ -43,8 +43,8 @@ const App = () => {
           <div className={styles.flexcontainer}></div>
           
           <div className={styles.logininstance1}>
-            <Button href = "./signin">
-            <span className={styles.logininstance1text}>Login</span>
+            <Button variant = "outlined" href = "./signin" fullWidth>
+              Login
             </Button>
           </div>
         </div>
@@ -58,8 +58,8 @@ const App = () => {
                 Get the playlist just for you, with songs fit your preference.
               </span>
               <div className={styles.logininstance}>
-                <Button href = "./signin">
-                <span className={styles.logininstancetext}>LET’S GO!</span>
+                <Button variant = "text" href = "./signin" fullWidth sx = {{height:60, color:"primary.light"}}>
+                LET’S GO!
                 </Button>
               </div>
 
@@ -83,14 +83,20 @@ const App = () => {
 
         <div className={styles.landingdownflexcontainer}>
           <img className={styles.landingimage} src={group} />
-          <span className={styles.landingdowntext1}>MUSIC</span>
+          <div className={styles.flexcontainer}></div>
+
+          <span className={styles.landingdowntext1}>
+            MUSIC
+          </span>
           <span className={styles.landingdowntextsmall}>You Like</span>
           <span className={styles.landingdowntext2}>
             Pick song features you prefer by using our VIBE PICKER feature to
             customize your playlist
           </span>
         </div>
+        <div className={styles.flexcontainer}></div>
         <img className={styles.ellipse} src={ellipse} />
+        <div className={styles.flexcontainer}></div>
         <div className={styles.landingdownflexcontainer}>
           <img className={styles.landingimage} src={logo} />
           <span className={styles.landingdowntext1}>WHENEVER</span>
@@ -100,7 +106,9 @@ const App = () => {
             music experience{" "}
           </span>
         </div>
+        <div className={styles.flexcontainer}></div>
         <img className={styles.ellipse} src={ellipse} />
+        <div className={styles.flexcontainer}></div>
         <div className={styles.landingdownflexcontainer}>
           <img className={styles.landingimage} src={group1} />
           <span className={styles.landingdowntext1}>WHOEVER</span>
