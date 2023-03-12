@@ -25,7 +25,9 @@ const App = () => {
         <div className={styles.flexcontainer}>
           {/* <div> */}
           <img className={styles.untitledartwork4} src={untitledArtwork} />
-          <Button variant="text" className={styles.navigatepages}>About</Button>
+          <Button variant="text" className={styles.navigatepages}>
+            <span className={styles.buttontext}>About</span>
+          </Button>
           <Button variant="text" className={styles.navigatepages}>People</Button>
           <Button variant="text" className={styles.navigatepages}>Gallery</Button>
           {/* </div>x */}
