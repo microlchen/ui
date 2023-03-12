@@ -26,6 +26,7 @@ const App = () => {
   const untitledArtwork = "/landing/logo.png";
   const vector = "/landing/vector1.svg";
   const vector1 = "/landing/vector.svg";
+  const tri = "/landing/polygon.png";
 
   return (
     <div className={styles.all}>
@@ -61,7 +62,9 @@ const App = () => {
             <img className={styles.vector} src={vector} />
           </div>
         </div>
-
+        <div className={styles.flexcontainer}>
+        {/* <img className={styles.num20238bitsterms} src={tri} /> */}
+        </div>
 
       </div>
 
