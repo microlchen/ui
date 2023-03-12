@@ -36,14 +36,19 @@ const App = () => {
     
       <div className={styles.landing} style = {{marginLeft:0}}>
         <div className={styles.flexcontainer}>
+          {/* <div> */}
           <img className={styles.untitledartwork4} src={untitledArtwork} />
           <Button variant="text" className={styles.navigatepages}>About</Button>
+          <Button variant="text" className={styles.navigatepages}>People</Button>
+          <Button variant="text" className={styles.navigatepages}>Gallery</Button>
+          {/* </div>x */}
+          <div className={styles.flexcontainer}></div>
+          <Button className={styles.logininstance1} {...propsData.login1} />
         </div>
 
         <div className={styles.flexcontainer}>
           <div className={styles.flexcontainer1}>
             <div className={styles.catabsolutecontainer}>
-              <Button className={styles.logininstance1} {...propsData.login1} />
               <span className={styles.meetyour}>Meet Your</span>
               <span className={styles.musaictext}>MUSAIC</span>
               <span className={styles.gettheplaylistjus}>
