@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Button from "@mui/material/Button";
 const App = () => {
   const propsData = {
-    
+    secondary: "#8791F9",
     login: {
       variant: "outlined",
       color: "secondary",
@@ -29,8 +29,8 @@ const App = () => {
         <title> Musiac </title>
         <link rel="icon" href="/landing/logo.png" />
       </Head>
-
-      <div className={styles.landing}>
+    
+      <div className={styles.landing} style = {{marginLeft:0}}>
         <div className={styles.flexcontainer}>
           <img className={styles.untitledartwork4} src={untitledArtwork} />
           <div className={styles.flexcontainer1}>
