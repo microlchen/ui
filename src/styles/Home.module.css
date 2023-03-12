@@ -35,7 +35,7 @@ Landing
   object-fit: cover;
   background-position: center;
   background-size: cover;
-  margin-top: 50px;
+  margin-top: 5%;
   margin-left: 4%;
 
 }
@@ -64,7 +64,7 @@ Landing
 
 .meetyour {
   letter-spacing: 3px;
-  margin-top: 20%;
+  margin-top: 16%;
   margin-bottom: 60px;
   color: #e6e1fa;
 
@@ -108,8 +108,9 @@ Landing
 .logininstance1 {
   width: 15%;
   flex-basis: 6%;
-  margin-top: 300px;
+  margin-top: 5%;
   color: #8791F9;
+  border-color: #8791F9;
   align-self: flex-end;
 }
 
