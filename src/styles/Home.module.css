@@ -430,17 +430,35 @@ Landing
 }
 
 .rectangle1157instance {
-  width: 100%;
-  flex-basis: 30%;
-  margin-top: 2%;
+  width: 300px;
+  height: 20%;
+
+  margin-top: 7%;
+  margin-right: 7%;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+
+  color: #8791F9;
+
+  /* border: 0.8px solid #8791F9; */
+  border-radius: 25px;
   
   
+}
+
+.spotifylogin{
+  width: 30px;
+  height: 30px;
+  margin-right: 5%;
 }
 
 .whydoihavetolog {
   font-size: .875rem;
   line-height: 20px;
   margin-top: 2%;
+  margin-right: 10%;
+
 
 }
 

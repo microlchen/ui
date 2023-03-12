@@ -5,18 +5,11 @@ import Button from "@mui/material/Button";
 import { Box } from "@mui/material";
 
 const App = () => {
-  const propsData = {
-    rectangle1157: {
-      color: "inherit",
-      children: "Press",
-      size: "small",
-      variant: "outlined",
-    },
-  };
   const rectangle = "/signin/rectangle.svg";
   const vector = "/signin/linevector.svg";
   const logo = "/signin/logotext.png";
   const vector2 = "/signin/vector0.svg";
+  const spotify = "/signin/spotify.png";
   return (
     <div className={styles.all}>
       <Head>
@@ -36,8 +29,13 @@ const App = () => {
                 I agree with the Terms of Service and Privacy Policy of this site
               </span>
             </div>
-            <Button
-              className={styles.rectangle1157instance}{...propsData.rectangle1157} />
+            <div className={styles.rectangle1157instance}>
+
+            <Button variant = "outlined" href = "./signin" fullWidth sx={{height:45, borderWidth:2}}>
+            <img className={styles.spotifylogin} src={spotify} />
+              Login with Spotify
+            </Button>
+          </div>
             <span className={styles.whydoihavetolog}>
               Why do I have to login with Spotify?
             </span>
