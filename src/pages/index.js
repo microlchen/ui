@@ -7,7 +7,7 @@ import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detec
 
 const App = () => {
   const ellipse = "/landingdown/ellipse.svg";
-  const group = !isMobile?  "/landingdown/grouptgrc.png" : "/landingdown/grouptgr.png";
+  const group = isMobile?  "/landingdown/grouptgr.png" : "/landingdown/grouptgrc.png";
   const groupm = "/landingdown/grouptgrc.png";
   const logo = "/landingdown/logo.png";
   const group1 = "/landingdown/group1.svg"
