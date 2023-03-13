@@ -6,14 +6,19 @@ import Link from 'next/link'
 
 const App = () => {
   const ellipse = "/landingdown/ellipse.svg";
-  const group = "/landingdown/grouptgr.png";
+  const group = "/landingdown/grouptgrc.png";
   const logo = "/landingdown/logo.png";
   const group1 = "/landingdown/group1.svg"
   const untitledArtwork = "/landing/logo.png";
   const vector = "/landing/vector1.svg";
   const vector1 = "/landing/vector.svg";
   const tri = "/landing/polygon.png";
-
+  // if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+  //   // Take the user to a different screen here.
+  // }
+  if (/Android|iPhone|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini|Mobile/i.test(navigator.userAgent)) {
+    group = "/landingdown/grouptgr.png";
+  }
   return (
     <div className={styles.all}>
       <Head>

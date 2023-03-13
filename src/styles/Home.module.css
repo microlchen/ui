@@ -55,8 +55,8 @@ Landing
   margin-top: 8%;
   margin-left: 1.5%;
   height: 3%;
-  font-weight: 300;
-  font-size: 0.6rem;
+  font-weight: 200;
+  font-size: 0.3rem;
   line-height: 14px;
   /* identical to box height, or 70% */
   text-align: center;
@@ -87,13 +87,13 @@ Landing
 }
 
 .meetyour {
-  letter-spacing: 3px;
+  letter-spacing: 6px;
   margin-top: 80px;
   margin-bottom: 60px;
   margin-left: 15%;
   color: #e6e1fa;
 
-  font-size: 3rem;
+  font-size: 2.9rem;
   font-weight: 100;
 }
 
@@ -118,8 +118,8 @@ Landing
 }
 
 .logininstance {
-  width: 200px;
-  height: 5%;
+  width: 160px;
+  height: 4%;
   flex-basis: 50px;
   margin-top: 1px;
   margin-left: 15%;
