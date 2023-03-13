@@ -3,11 +3,12 @@ import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 import Button from "@mui/material/Button";
 import Link from 'next/link'
-import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detect';
+import { useState, useEffect } from 'react';
 
 const App = () => {
+  
   const ellipse = "/landingdown/ellipse.svg";
-  const group = isBrowser?  "/landingdown/grouptgr.png" : "/landingdown/grouptgrc.png";
+  var group = "";
   const groupm = "/landingdown/grouptgrc.png";
   const logo = "/landingdown/logo.png";
   const group1 = "/landingdown/group1.svg"
@@ -15,6 +16,28 @@ const App = () => {
   const vector = "/landing/vector1.svg";
   const vector1 = "/landing/vector.svg";
   const tri = "/landing/polygon.png";
+
+  if (typeof window !== "undefined") {
+    const [windowSize, setWindowSize] = useState([
+      window.innerWidth,
+      window.innerHeight,
+    ]);
+    // browser code
+  
+  
+    useEffect(() => {
+      const handleWindowResize = () => {
+        setWindowSize([window.innerWidth, window.innerHeight]);
+      };
+  
+      window.addEventListener('resize', handleWindowResize);
+  
+      return () => {
+        window.removeEventListener('resize', handleWindowResize);
+      };
+    });
+    group = (windowSize[0]<400)?  "/landingdown/grouptgr.png" : "/landingdown/grouptgrc.png";
+  }
   return (
     <div className={styles.all}>
       <Head>
