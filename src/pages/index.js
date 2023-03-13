@@ -16,9 +16,9 @@ const App = () => {
   // if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
   //   // Take the user to a different screen here.
   // }
-  if (/Android|iPhone|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini|Mobile/i.test(navigator.userAgent)) {
-    group = "/landingdown/grouptgr.png";
-  }
+  // if (/Android|iPhone|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini|Mobile/i.test(navigator.userAgent)) {
+  //   group = "/landingdown/grouptgr.png";
+  // }
   return (
     <div className={styles.all}>
       <Head>
