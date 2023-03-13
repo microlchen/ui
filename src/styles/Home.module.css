@@ -362,7 +362,7 @@ Landing
   /* margin-top: 8%; */
   margin-bottom: 30%;
   margin-right: 5%;
-  margin-left: 20%;
+  margin-left: 5%;
 }
 
 .singinflexcontainer {
@@ -393,15 +393,13 @@ Landing
 }
 
 .vvector1 {
-  height: 1%;
-  width: 0.75%;
+  height: 0.1%;
+  width: 0.8%;
   object-fit: contain;
   transform: rotate(-90deg);
   margin-bottom: -35%;
   margin-top: -30%;
   margin-right: 35%;
-
-
 
 }
 
@@ -479,9 +477,9 @@ Landing
   /* object-fit: contain; */
   width: 70%;
   height: 90%;
-  margin-top: -60%;
+  margin-top: -55%;
   margin-right: 30%;
-  margin-bottom: 37%;
+  margin-bottom: 40%;
 
 }
 
