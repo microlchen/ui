@@ -7,16 +7,14 @@ import { BrowserView, MobileView, isBrowser, isMobile } from 'react-device-detec
 
 const App = () => {
   const ellipse = "/landingdown/ellipse.svg";
-  const group = "/landingdown/grouptgrc.png";
+  const group = !isMobile?  "/landingdown/grouptgrc.png" : "/landingdown/grouptgr.png";
+  const groupm = "/landingdown/grouptgrc.png";
   const logo = "/landingdown/logo.png";
   const group1 = "/landingdown/group1.svg"
   const untitledArtwork = "/landing/logo.png";
   const vector = "/landing/vector1.svg";
   const vector1 = "/landing/vector.svg";
   const tri = "/landing/polygon.png";
-  if (isMobile) {
-    group = "/landingdown/grouptgr.png";
-  }
   return (
     <div className={styles.all}>
       <Head>
@@ -82,7 +80,7 @@ const App = () => {
       </div>
 
       <div className={styles.landingdown}>
-      <img className={styles.landingimage1} src={group} />
+        <img className={styles.landingimage1} src={group} />
         {/* <div className={styles.landingdownflexcontainer}>
           <img className={styles.landingimage1} src={group} />
           <div className={styles.flexcontainer}></div>
