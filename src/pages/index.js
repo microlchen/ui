@@ -21,32 +21,6 @@ const App = () => {
   const vector1 = "/landing/vector.svg";
   const tri = "/landing/polygon.png";
 
-  // if (typeof window !== "undefined") {
-  //   const [windowSize, setWindowSize] = useState([
-  //     window.innerWidth,
-  //     window.innerHeight,
-  //   ]);
-  //   // browser code
-  
-  
-  //   useEffect(() => {
-  //     const handleWindowResize = () => {
-  //       setWindowSize([window.innerWidth, window.innerHeight]);
-  //     };
-  
-  //     window.addEventListener('resize', handleWindowResize);
-  
-  //     return () => {
-  //       window.removeEventListener('resize', handleWindowResize);
-  //     };
-  //   });
-  //   if (window.innerWidth<5000){
-  //     group = "/landingdown/grouptgrc.png"
-  //   } 
-  //   if (window.innerWidth<500){
-  //     group = "/landingdown/grouptgr.png"
-  //   }
-  // }
   return (
     <div className={styles.all}>
       <Head>
@@ -112,50 +86,23 @@ const App = () => {
       </div>
 
       <div className={styles.landingdown}>
-        {/* <img className={styles.landingimage1} src={group} /> */}
         <div className={styles.flexcontainer}></div>
-
         <div className={styles.landingdownflexcontainer}>
           <img className={styles.landingimage1} src={music} />
-          {/* <div className={styles.flexcontainer}></div>
-
-          <span className={styles.landingdowntext1}>
-            MUSIC
-          </span>
-          <span className={styles.landingdowntextsmall}>You Like</span>
-          <span className={styles.landingdowntext2}>
-            Pick song features you prefer by using our VIBE PICKER feature to
-            customize your playlist
-          </span> */}
         </div>
         <div className={styles.flexcontainer}></div>
         <img className={styles.ellipse} src={ellipse} />
         <div className={styles.flexcontainer}></div>
         <div className={styles.landingdownflexcontainer}>
           <img className={styles.landingimage2} src={whenever} />
-          {/* <span className={styles.landingdowntext1}>WHENEVER</span>
-          <span className={styles.landingdowntextsmall}>You Are</span>
-          <span className={styles.landingdowntext2}>
-            Link to your SPOTIFY account to enjoy simple but exciting personalized
-            music experience{" "}
-          </span> */}
         </div>
         <div className={styles.flexcontainer}></div>
         <img className={styles.ellipse} src={ellipse} />
         <div className={styles.flexcontainer}></div>
         <div className={styles.landingdownflexcontainer}>
           <img className={styles.landingimage3} src={whoever} />
-          {/* <span className={styles.landingdowntext1}>WHOEVER</span>
-          <span className={styles.landingdowntextsmall}>You’re With</span>
-          <span className={styles.landingdowntext2}>
-            Check our FRIEND MATCH feature to get mixed playlist for you and your
-            friend
-          </span> */}
         </div>
         <div className={styles.flexcontainer}></div>
-
-
-
       </div>
       <span className={styles.num20238bitsterms}>
         <span className={styles.num20238bitstermsbtext}>@2023 8BITS</span>

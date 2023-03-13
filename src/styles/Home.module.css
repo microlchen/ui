@@ -350,7 +350,7 @@ Landing
 */
 
 .signinoutercontainer {
-  height: 50%;
+  height: 200%;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -359,7 +359,7 @@ Landing
   font-weight: 700;
   line-height: 14px;
   display: flex;
-  margin-top: 8%;
+  /* margin-top: 8%; */
   margin-bottom: 30%;
   margin-right: 5%;
   margin-left: 20%;
@@ -379,24 +379,34 @@ Landing
   
 }
 
+.signinlogobox {
+  margin-top: 20%;
+  margin-right: 20%;
+  margin-bottom: -15%;
+
+
+}
+
 .signinlogo {
-  width: 150px;
-  height: 100%;
-  margin-right: 30%;
+  width: 120px;
+  height: 120%;
 }
 
 .vvector1 {
-  height: 5%;
-  width: 0.5%;
+  height: 1%;
+  width: 0.75%;
   object-fit: contain;
-  margin-right: 5%;
-  margin-left: 5%;
+  transform: rotate(-90deg);
+  margin-bottom: -35%;
+  margin-top: -30%;
+  margin-right: 35%;
 
-  
+
+
 }
 
 .flexcontainer11 {
-  height: 55%;
+  height: 100%;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
@@ -411,7 +421,7 @@ Landing
 
 .flexcontainer22 {
   color: #d7e3f7;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   line-height: 160%;
   letter-spacing: 2px;
   font-weight: 300;
@@ -422,36 +432,23 @@ Landing
   align-items: center;
   margin-bottom: 17px;
   display: flex;
-  margin-right: 5%;
-  margin-top: 2%;
+  margin-left: 20%;
+  /* margin-top: 2%; */
 
-
-}
-
-.rectangle1156 {
-  width: 10%;
-  height: 20%;
-  object-fit: contain;
-  
-  border-radius: 10%;
-  margin-bottom: 5%;
-  margin-right: 5%;
-  margin-top: 7%;
 
 }
 
 .iagreewiththeter {
   letter-spacing: 1%;
-  margin-right: 10%;
   margin-left: 5%;
 }
 
 .rectangle1157instance {
-  width: 300px;
+  width: 70%;
   height: 20%;
 
   margin-top: 7%;
-  margin-right: 7%;
+  margin-left: 18%;
   flex-direction: row;
   align-items: center;
   justify-items: center;
@@ -471,10 +468,9 @@ Landing
 }
 
 .whydoihavetolog {
-  font-size: .875rem;
+  font-size: .7rem;
   line-height: 20px;
-  margin-top: 2%;
-  margin-right: 10%;
+  margin-top: 5%;
 
 
 }
@@ -485,7 +481,8 @@ Landing
   height: 90%;
   margin-top: -60%;
   margin-right: 30%;
-  margin-bottom: 20px;
+  margin-bottom: 37%;
+
 }
 
 
