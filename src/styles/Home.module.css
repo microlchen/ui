@@ -176,7 +176,9 @@ Landing
   height: 1.6%;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 3%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -381,7 +383,7 @@ Landing
 
 .signinlogobox {
   margin-top: 20%;
-  margin-right: 20%;
+  margin-right: 30%;
   margin-bottom: -15%;
 
 
@@ -399,7 +401,7 @@ Landing
   transform: rotate(-90deg);
   margin-bottom: -35%;
   margin-top: -30%;
-  margin-right: 35%;
+  margin-right: 45%;
 
 }
 
@@ -409,7 +411,7 @@ Landing
   justify-content: space-between;
   align-items: flex-end;
   margin-right: 10%;
-  margin-left: 5%;
+  margin-left: 1%;
 
 
   font-weight: 500;
@@ -419,7 +421,7 @@ Landing
 
 .flexcontainer22 {
   color: #d7e3f7;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   line-height: 160%;
   letter-spacing: 2px;
   font-weight: 300;
@@ -430,7 +432,9 @@ Landing
   align-items: center;
   margin-bottom: 17px;
   display: flex;
-  margin-left: 20%;
+  margin-left: 8%;
+  margin-right: 3%;
+
   /* margin-top: 2%; */
 
 
@@ -442,7 +446,7 @@ Landing
 }
 
 .rectangle1157instance {
-  width: 70%;
+  width: 90%;
   height: 20%;
 
   margin-top: 7%;
@@ -476,8 +480,8 @@ Landing
 .vector0 {
   /* object-fit: contain; */
   width: 70%;
-  height: 90%;
-  margin-top: -55%;
+  height: 120%;
+  margin-top: -40%;
   margin-right: 30%;
   margin-bottom: 40%;
 
