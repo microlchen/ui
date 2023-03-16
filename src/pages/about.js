@@ -58,22 +58,23 @@ const App = () => {
 
         <div className={styles.flexcontainer}>
           <div className={styles.flexcontainer1}>
-            <div className={styles.catabsolutecontainer}>
-              <span className={styles.meetyour}>Meet Your</span>
-              <span className={styles.musaictext}>MUSAIC</span>
-              <span className={styles.gettheplaylistjus}>
-              With Musaic, it’s easy to find the right playlist customized just for you and your friends.
-                Explore new genres, people, chord progression, or even choose your songs based on just your mood.
-                There are millions of tracks and episodes on Spotify.
+            <div className={styles.catabsolutecontainer} style={{marginRight:"15%"}}>
+              <span className={styles.meetyour} style={{fontWeight:400, color:"#dcdffb"}}>ABOUT</span>
+              <span className={styles.gettheplaylistjus} style={{fontSize:15, lineHeight:1.5}}>
+                    With Musaic, it’s easy to find the right playlist customized just for you and your friends.
+                    Explore new genres, people, chord progression, or even choose your songs based on just your mood.
+                    There are millions of tracks and episodes on Spotify.
                 </span>
 
-                <span className={styles.gettheplaylistjus}>
-                So whether you’re behind the wheel, working out, partying or relaxing, you can use Musaic to find the best music for you.
-                Choose what you want to listen to, or let our AI surprise you. With Musiac, you can blend your music tastes together or find others just like you.
-                Log in with your Spotify account, and try Musiac out today!
+                <span className={styles.gettheplaylistjus} style={{marginTop:-20, fontSize:15, lineHeight:1.5}}>
+                    So whether you’re behind the wheel, working out, partying or relaxing, you can use Musaic to find the best music for you.
+                    Choose what you want to listen to, or let our AI surprise you. With Musiac, you can blend your music tastes together or find others just like you.
+                    Log in with your Spotify account, and try Musiac out today!
               </span>
-
+              
             </div>
+            <img className={styles.vector1} style={{marginTop: "25%", marginRight:"-15%"}} src={vector1} />
+            <img className={styles.vector}  src={vector} />
           </div>
         </div>
 
