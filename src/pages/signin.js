@@ -35,7 +35,7 @@ const App = () => {
             </div>
             <div className={styles.rectangle1157instance}>
 
-            <Button variant = "outlined" href = "./signin" fullWidth sx={{height:45, borderWidth:2}}>
+            <Button variant = "outlined" href = "./dashboard" fullWidth sx={{height:45, borderWidth:2}}>
             <img className={styles.spotifylogin} src={spotify} />
               Login with Spotify
             </Button>

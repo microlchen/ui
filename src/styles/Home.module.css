@@ -93,11 +93,11 @@ Landing
 }
 
 .untitledartwork4 {
-  width: 10%;
-  height: 10%;
-  object-fit: cover;
-  background-position: center;
-  background-size: cover;
+  width: 0.5%;
+  height: 0.5%;
+  /* object-fit: cover; */
+  /* background-position: center; */
+  /* background-size: cover; */
   margin-top: 5%;
   margin-left: 4%;
   margin-right: 2%;

@@ -25,13 +25,14 @@ const App = () => {
     <div className={styles.all}>
       <Head>
         <title> Musiac </title>
-        <link rel="icon" href="/landing/logo.png" />
+        <link rel="icon" href="./" />
       </Head>
     
       <div className={styles.landing} style = {{marginLeft:0}}>
         <div className={styles.flexcontainer}>
-          {/* <div> */}
-          <img className={styles.untitledartwork4} src={untitledArtwork} />
+          <div className={styles.untitledartwork4}>
+          <Button href="/"><img src={untitledArtwork} /></Button>
+          </div >
           <div className={styles.navigatepages}>
             <Button variant="text" >
             <span className={styles.buttontext}>About</span>

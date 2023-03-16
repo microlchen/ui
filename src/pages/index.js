@@ -31,7 +31,7 @@ const App = () => {
       <div className={styles.landing} style = {{marginLeft:0}}>
         <div className={styles.flexcontainer}>
           {/* <div> */}
-          <img className={styles.untitledartwork4} src={untitledArtwork} />
+          <Button href="/"><img className={styles.untitledartwork4} src={untitledArtwork} /></Button>
           <div className={styles.navigatepages}>
             <Button variant="text" href="/about">
             <span className={styles.buttontext}>About</span>
