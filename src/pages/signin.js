@@ -13,10 +13,7 @@ const App = () => {
   const spotify = "/signin/spotify.png";
   return (
     <div className={styles.all}>
-      <Head>
-        <title> Musiac </title>
-        <link rel="icon" href={logo} />
-      </Head>
+      
       <div className={styles.landing}>
         <div className={styles.signinoutercontainer}>
           {/* <div className={styles.signinflexcontainer}>
