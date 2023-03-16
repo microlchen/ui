@@ -29,7 +29,11 @@ const App = () => {
             <div className={styles.flexcontainer22}>
               <Checkbox/>
               <span className={styles.iagreewiththeter}>
-                I agree with the Terms of Service and Privacy Policy of this site
+                I agree with the 
+                <Link href="/tos" className={styles.iagreewiththeter}>Terms of Service</Link>
+                 and 
+                <Link href="https://www.gdprprivacypolicy.net/live.php?token=RYjiEytOOHcu0QGU3fMFSlUObDcusrYS" className={styles.iagreewiththeter}>Privacy Policy</Link>
+                 of this site
               </span>
             </div>
             <div className={styles.rectangle1157instance}>
@@ -47,8 +51,8 @@ const App = () => {
         <img className={styles.vector0} src={vector2} />
         <span className={styles.num20238bitsterms}>
         <span className={styles.num20238bitstermsbtext}>@2023 8BITS</span>
-        <Link href="/" className={styles.num20238bitstermsbtext}>Terms of Service</Link>
-        <Link href="/" className={styles.num20238bitstermsbtext}>Privacy Policy</Link>
+        <Link href="/tos" className={styles.num20238bitstermsbtext}>Terms of Service</Link>
+        <Link href="https://www.gdprprivacypolicy.net/live.php?token=RYjiEytOOHcu0QGU3fMFSlUObDcusrYS" className={styles.num20238bitstermsbtext}>Privacy Policy</Link>
       </span>
       </div>
 

@@ -441,8 +441,10 @@ Landing
 }
 
 .iagreewiththeter {
-  letter-spacing: 0.5%;
-  margin-left: 5%;
+  letter-spacing: 0.2%;
+  margin-left: 3%;
+  margin-right: 3%;
+
 }
 
 .rectangle1157instance {
@@ -480,7 +482,7 @@ Landing
 .vector0 {
   /* object-fit: contain; */
   width: 70%;
-  height: 120%;
+  height: 500%;
   margin-top: -40%;
   margin-right: 30%;
   margin-bottom: 40%;

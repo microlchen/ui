@@ -106,8 +106,8 @@ const App = () => {
       </div>
       <span className={styles.num20238bitsterms}>
         <span className={styles.num20238bitstermsbtext}>@2023 8BITS</span>
-        <Link href="/" className={styles.num20238bitstermsbtext}>Terms of Service</Link>
-        <Link href="/" className={styles.num20238bitstermsbtext}>Privacy Policy</Link>
+        <Link href="/tos" className={styles.num20238bitstermsbtext}>Terms of Service</Link>
+        <Link href="https://www.gdprprivacypolicy.net/live.php?token=RYjiEytOOHcu0QGU3fMFSlUObDcusrYS" className={styles.num20238bitstermsbtext}>Privacy Policy</Link>
       </span>
 
     </div>
