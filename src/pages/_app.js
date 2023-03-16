@@ -1,5 +1,6 @@
 import '@/styles/globals.css'
 import { createTheme, ThemeProvider } from '@mui/material';
+import Head from 'next/head'
 
 export default function App({ Component, pageProps }) {
   const theme = createTheme({
@@ -35,7 +36,7 @@ export default function App({ Component, pageProps }) {
       },
       divider: '#ffffff',
       info: {
-        main:'#ffffff',
+        main: '#ffffff',
       },
       // text: {
       //   primary: '#ffffff',
@@ -44,7 +45,7 @@ export default function App({ Component, pageProps }) {
         default: '#19191B',
       },
       login: '#8791F9',
-      
+
     },
     background: {
       default: '#191722',
@@ -86,7 +87,10 @@ export default function App({ Component, pageProps }) {
         // fontFamily: "cursive",
       },
     },
-    
+
   });
-  return <ThemeProvider theme={theme}><Component {...pageProps} /></ThemeProvider>
+  return (<><Head>
+    <title> Musiac </title>
+    <link rel="icon" href="/landing/logo.png" />
+  </Head><ThemeProvider theme={theme}><Component {...pageProps} /></ThemeProvider></>)
 }
