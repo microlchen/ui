@@ -10,13 +10,40 @@ Landing
   width: 1480px;
   height: 1000px;
   color:white;
+  flex-grow: 1;
 }
 .dashboard2 {
-  background-color: #191722;
-  width: 8%;
-  min-height: 900px;
-  color:white;
+  min-height:200px;
+  width:fit-content;
+  height:auto;
  
+}
+.menu{
+  
+  box-sizing: content-box;
+  width: 5%;
+  height:auto;
+  left: 0px;
+  top: 0px;
+
+  background: #262136;
+  box-shadow: 10px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 30px 30px 0px;
+  border-right: solid #B35EF5 2px;
+  
+}
+
+.untitledartworkdash {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  margin-top: 5%;
+  margin-left: 4%;
+  margin-right: 2%;
+
+
 }
 .innerdash{
   width: 20%;
@@ -39,19 +66,24 @@ Landing
   display: flex;
 }
 .landingdash {
-  color: #c1c8ff;
-  width: 100%;
-  height: 100%;
-  
-  background-color: #191722;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-right: 2px;
   font-family: Inter, sans-serif;
-  font-size: 7.5rem;
-  line-height: 14px;
-  display: flex;
+width: 866px;
+height: 103px;
+left: -50px;
+top: 103px;
+
+font-weight: 300;
+font-size: 4rem;
+line-height: 16%;
+letter-spacing: 0.05em;
+
+color:  rgba(233, 234, 255, 0.943);
+-webkit-background-clip: text;
+/* -webkit-text-fill-color: transparent; */
+background-clip: text;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .halfsize {
