@@ -5,7 +5,7 @@ import Button from "@mui/material/Button";
 import Link from 'next/link'
 import { useState, useEffect } from 'react';
 
-const App = () => {
+const About = () => {
   
   const ellipse = "/landingdown/ellipse.svg";
   var music = "/landingdown/music.png";
@@ -23,36 +23,11 @@ const App = () => {
 
   return (
     <div className={styles.all}>
-      <Head>
-        <title> Musiac </title>
-        <link rel="icon" href="./" />
-      </Head>
+      
     
       <div className={styles.landing} style = {{marginLeft:0}}>
         <div className={styles.flexcontainer}>
-          <img className={styles.untitledartwork4} src={untitledArtwork} />
-          <div className={styles.navigatepages}>
-            <Button variant="text" href="/">
-            <span className={styles.buttontext}>Home</span>
-            </Button>
-          </div>
-          <div className={styles.navigatepages}>
-            <Button variant="text" href="/about">
-            <span className={styles.buttontext}>About</span>
-            </Button>
-          </div>
-          <div className={styles.navigatepages}>
-            <Button variant="text" >
-            <span className={styles.buttontext}>People</span>
-            </Button>
-          </div>
-          <div className={styles.flexcontainer}></div>
           
-          <div className={styles.logininstance1}>
-            <Button variant = "outlined" href = "./signin" fullWidth>
-              Login
-            </Button>
-          </div>
         </div>
 
         <div className={styles.flexcontainer}>
@@ -87,4 +62,4 @@ const App = () => {
     </div>
   );
 };
-export default App;
+export default About;
