@@ -11,24 +11,17 @@ import DarkModeIcon from '@mui/icons-material/DarkMode';
 import GroupIcon from '@mui/icons-material/Group';
 
 export default function Dashboard() {
+    const untitledArtwork = "/landing/logo.png";
+    const home = "/dashboard/home.png";
 
     return (
         <div className={styles.dashboard}>
             <Box sx={{ flexDirection: 'column' }}>
-                <Box sx={{
-                    flexDirection: 'row', borderRight: 1, borderTop: 1, borderColor: '#cad6ff',
-                    height: '100%', width: '6%', borderRadius: '50px', alignItems: 'center'
-                }}>
-                    <Box className={styles.dashboard2}>
-                        <Box sx={{ mt: "50px", ml: "15px", mb: "20px" }}>
-                            <Image
-                                src="/landing/logo.png"
-                                width={40}
-                                height={40}
-                                priority
-                            />
+                <div className={styles.menu}>
+                        <Box >
+                            <img className={styles.untitledartworkdash} style={{width:"70%", marginTop:"20%"}} src={untitledArtwork} />
                             <Box sx={{ mt: '200px' }}></Box>
-                            <HomeIcon fontSize='large' />
+                            <img className={styles.untitledartworkdash} style={{width:"50%", alignContent:"center"}} src={home} />
                             <Box sx={{ mt: '50px' }}></Box>
                             <DarkModeIcon fontSize="large" />
                             <Box sx={{ mt: '10%' }}></Box>
@@ -37,18 +30,11 @@ export default function Dashboard() {
 
                         </Box>
 
-                    </Box>
-
-                </Box>
+                </div>
                 <Box sx={{ flexDirection: 'row', mt: "-52%", ml: "14%" }}>
                     <div className={styles.landingdash}>Hi, Y/N</div>
-                    <Box sx={{ flexDirection: 'column', mt: "10%" }}>
-                        <Image className={styles.innerdash}
-                            src="/landing/logo.png"
-                            width={350}
-                            height={350}
-                            priority
-                        />
+                    <div style={{ flexDirection: 'column'}}>
+                    <img className={styles.untitledartworkdash} style={{width:"20%"}} src={untitledArtwork} />
                         <Box className={styles.halfsize} sx={{ border: 1, mt: "2%", borderColor: '#cad6ff', borderRadius: '20px' }}>
                             <Box sx={{mt: '2%', ml: "2%"}}>
                                 <GroupIcon fontSize="large" />
@@ -75,7 +61,7 @@ export default function Dashboard() {
 
                         </Box>
                         </Box>
-                    </Box>
+                    </div>
                 </Box>
             </Box>
         </div>
