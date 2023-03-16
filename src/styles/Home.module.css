@@ -92,12 +92,23 @@ Landing
   display: flex;
 }
 
+.flexcontaineru {
+  width: 100%;
+  flex-direction: row;
+  flex-basis: 92%;
+  justify-content: space-between;
+  height: max-content;
+  align-items: stretch;
+  
+  display: flex;
+}
+
 .untitledartwork4 {
-  width: 0.5%;
-  height: 0.5%;
-  /* object-fit: cover; */
-  /* background-position: center; */
-  /* background-size: cover; */
+  width: 12%;
+  height: 12%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
   margin-top: 5%;
   margin-left: 4%;
   margin-right: 2%;

@@ -30,22 +30,20 @@ const App = () => {
     
       <div className={styles.landing} style = {{marginLeft:0}}>
         <div className={styles.flexcontainer}>
-          <div className={styles.untitledartwork4}>
-          <Button href="/"><img src={untitledArtwork} /></Button>
-          </div >
+          <img className={styles.untitledartwork4} src={untitledArtwork} />
           <div className={styles.navigatepages}>
-            <Button variant="text" >
+            <Button variant="text" href="/">
+            <span className={styles.buttontext}>Home</span>
+            </Button>
+          </div>
+          <div className={styles.navigatepages}>
+            <Button variant="text" href="/about">
             <span className={styles.buttontext}>About</span>
             </Button>
           </div>
           <div className={styles.navigatepages}>
             <Button variant="text" >
             <span className={styles.buttontext}>People</span>
-            </Button>
-          </div>
-          <div className={styles.navigatepages}>
-            <Button variant="text" >
-            <span className={styles.buttontext}>Gallery</span>
             </Button>
           </div>
           <div className={styles.flexcontainer}></div>
