@@ -17,6 +17,7 @@ Landing
   background-color: #191722;
   color:white;
   flex-grow: 1;
+  overflow: visible;
 }
 .dashboard2 {
   width:fit-content;
@@ -117,6 +118,7 @@ Landing
   height:max-content;
   flex-grow: 1;
   height: 100%;
+  min-width: 300px;
   
 }
 .innerdash{
@@ -183,7 +185,7 @@ Landing
 }
 .innerfilebox{
   width: 90%;
-  height: 82%;
+  height: 75%;
   background-color: #42395c;
   border-radius: 15px;
   margin-left: 4%;
