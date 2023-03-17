@@ -16,6 +16,7 @@ export default function Dashboard() {
     const friend = "/dashboard/friend.png";
     const vibepicker = "/dashboard/vibepicker.png";
     const vector = "/dashboard/vector.png";
+    const avatar = "/dashboard/Avatar.png";
 
 
     return (
@@ -23,6 +24,7 @@ export default function Dashboard() {
                 <div className={styles.menu}>
                             <img className={styles.untitledartworkdash} style = {{marginTop:"40%"}} src={untitledArtwork} />
                             <img className={styles.untitledartworkdash} style = {{marginTop:"15vh"}} src={home} />
+                            <img className={styles.untitledartworkdash} style = {{marginTop:"45vh"}} src={avatar} />
                             {/* <img className={styles.untitledartworkdash}  src={home} /> */}
 
                 </div>

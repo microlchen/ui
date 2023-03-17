@@ -35,7 +35,7 @@ Landing
   border-radius: 0px 30px 30px 0px;
   border-right: solid #B35EF5 2px;
 
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: flex-start;
   display: flex;
   /* align-content: center; */
