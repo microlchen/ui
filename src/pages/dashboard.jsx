@@ -1,14 +1,10 @@
 import * as React from "react";
 import styles from '@/styles/Home.module.css'
 import {
-    Box,
+    Link,
     Avatar,
 
 } from "@mui/material";
-import Image from "next/image";
-import HomeIcon from '@mui/icons-material/Home';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import GroupIcon from '@mui/icons-material/Group';
 
 export default function Dashboard() {
     const untitledArtwork = "/landing/logo.png";
