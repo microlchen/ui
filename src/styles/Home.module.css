@@ -985,3 +985,11 @@ Landing
   flex-direction: column;
 }
 }
+
+
+/*
+Lobby stuff
+*/
+.textfield{
+  height: 50%;
+}
