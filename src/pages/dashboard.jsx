@@ -13,38 +13,43 @@ import GroupIcon from '@mui/icons-material/Group';
 export default function Dashboard() {
     const untitledArtwork = "/landing/logo.png";
     const home = "/dashboard/home.png";
+    const friend = "/dashboard/friend.png";
+    const vibepicker = "/dashboard/vibepicker.png";
+    const vector = "/dashboard/vector.png";
+
 
     return (
         <div className={styles.dashboard}>
                 <div className={styles.menu}>
-                            <img className={styles.untitledartworkdash} style={{width:"70%", marginTop:"20%"}} src={untitledArtwork} />
-                            <img className={styles.untitledartworkdash} style={{width:"40%", alignContent:"center"}} src={home} />
-                            <img className={styles.untitledartworkdash} style={{width:"40%", alignContent:"center"}} src={home} />
+                            <img className={styles.untitledartworkdash} style = {{marginTop:"40%"}} src={untitledArtwork} />
+                            <img className={styles.untitledartworkdash} style = {{marginTop:"15vh"}} src={home} />
+                            {/* <img className={styles.untitledartworkdash}  src={home} /> */}
 
                 </div>
                 <div className={styles.dashboardbox}>
                     <div className={styles.innerbox}>
                     <div className={styles.landingdash}>Hi, Y/N</div>
                     
-                    <img className={styles.image} style={{width:"50%"}} src={untitledArtwork} />
+                    <img className={styles.image} src={untitledArtwork} />
                         <div className={styles.halfsize} >
                             <div className={styles.title}>
-                            <img className={styles.functionicon} style={{width:"10%", height:"15%", alignContent:"center"}} src={home} />
-                            <div className={styles.friendmatch}>Friend Match</div>
+                            <img className={styles.functionicon} style={{width:"10%", height:"15%", alignContent:"center"}} src={friend} />
+                            <div className={styles.friendmatch}>FRIEND MATCH</div>
                             </div>
                                 <div className={styles.innerfilebox}>
-                                    Hello , this is subjected to change alot
+    
                                 </div>
                         </div>
                     </div>
-                    <div className={styles.innerbox} style ={{marginTop:"10%", marginRight:"5%", height:"100%"}}>
+                    <div className={styles.innerbox} style ={{marginRight:"5%", height:"100%"}}>
+                    <img className={styles.vectordash} src={vector} />
                         <div className={styles.halfsize2} >
                             <div className={styles.title}>
-                            <img className={styles.functionicon} style={{width:"10%", height:"15%", alignContent:"center"}} src={home} />
-                            <div className={styles.friendmatch}>Friend Match</div>
+                            <img className={styles.functionicon} style={{width:"10%", height:"15%", alignContent:"center"}} src={vibepicker} />
+                            <div className={styles.friendmatch}>FRIEND MATCH</div>
                             </div>
-                                <div className={styles.innerfilebox}>
-                                    Hello , this is subjected to change alot
+                                <div className={styles.innerfilebox} style = {{height: "82%", minHeight:"260px"}}>
+
                                 </div>
                         </div>
                     </div>

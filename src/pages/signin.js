@@ -35,7 +35,8 @@ const App = () => {
             </div>
             <div className={styles.rectangle1157instance}>
 
-            <Button variant = "outlined" href = "https://ui-testing-backend.vercel.app" fullWidth sx={{height:45, borderWidth:2}}>
+            {/* https://ui-testing-backend.vercel.app */}
+            <Button variant = "outlined" href = "/dashboard" fullWidth sx={{height:45, borderWidth:2}}>
             <img className={styles.spotifylogin} src={spotify} /> 
               Login with Spotify
             </Button>
