@@ -18,6 +18,9 @@ Landing
   color:white;
   flex-grow: 1;
   overflow: scroll;
+  @media only screen and (max-width: 896px) {
+      flex-direction: column;
+  }
 }
 .dashboard2 {
   width:fit-content;
@@ -26,7 +29,7 @@ Landing
 }
 .menu{
   height:100vh;
-  width: 60px;
+  width: 80px;
   min-width: 60px;
   min-height: 400px;
 
@@ -54,7 +57,7 @@ Landing
 }
 
 .untitledartworkdash {
-  width: 30px;
+  width: 40px;
   object-fit: cover;
   background-position: center;
   background-size: cover;
@@ -79,14 +82,14 @@ Landing
   margin-right: 2%;
 }
 .vectordash{
-  width:60vw;
+  width:56vw;
   object-fit: cover;
   background-position: center;
   justify-self: flex-end;
   background-size: cover;
   margin-top: 14.5%;
 
-  margin-left: -35%;
+  margin-left: -15vw;
 }
 .functionicon{
   width: 100%;
