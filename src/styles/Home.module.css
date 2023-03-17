@@ -18,6 +18,9 @@ Landing
   color:white;
   flex-grow: 1;
   overflow: scroll;
+  @media only screen and (max-width: 600px) {
+      flex-direction: column;
+  }
 }
 .dashboard2 {
   width:fit-content;
