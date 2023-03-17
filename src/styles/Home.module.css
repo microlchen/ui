@@ -79,14 +79,14 @@ Landing
   margin-right: 2%;
 }
 .vectordash{
-  width:60vw;
+  width:56vw;
   object-fit: cover;
   background-position: center;
   justify-self: flex-end;
   background-size: cover;
   margin-top: 14.5%;
 
-  margin-left: -35%;
+  margin-left: -15vw;
 }
 .functionicon{
   width: 100%;
