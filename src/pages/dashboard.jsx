@@ -22,20 +22,18 @@ export default function Dashboard() {
     return (
         <div className={styles.dashboard}>
                 <div className={styles.menu}>
-                            <img className={styles.untitledartworkdash} style = {{marginTop:"40%"}} src={untitledArtwork} />
-                            <img className={styles.untitledartworkdash} style = {{marginTop:"10vh", marginLeft:"35%", width:"30px"}} src={home} />
-                            <img className={styles.untitledartworkdash} style = {{marginTop:"35vh", marginBottom:"40%"}} src={avatar} />
-                            {/* <img className={styles.untitledartworkdash}  src={home} /> */}
+                            <img className={styles.untitledartworkdash1} src={untitledArtwork} />
+                            <img className={styles.untitledartworkdash2} src={home} />
+                            <img className={styles.untitledartworkdash3} src={avatar} />
 
                 </div>
                 <div className={styles.dashboardbox}>
                     <div className={styles.innerbox}>
                     <div className={styles.landingdash}>Hi, Y/N</div>
-                    
                     <img className={styles.image} src={untitledArtwork} />
                         <div className={styles.halfsize} >
                             <div className={styles.title}>
-                            <img className={styles.functionicon} style={{width:"10%", height:"15%", alignContent:"center"}} src={friend} />
+                            <img className={styles.functionicon} src={friend} />
                             <div className={styles.friendmatch}>FRIEND MATCH</div>
                             </div>
                                 <div className={styles.innerfilebox}>
@@ -43,14 +41,14 @@ export default function Dashboard() {
                                 </div>
                         </div>
                     </div>
-                    <div className={styles.innerbox} style ={{marginRight:"5%", height:"100%"}}>
+                    <div className={styles.innerbox2}>
                     <img className={styles.vectordash} src={vector} />
                         <div className={styles.halfsize2} >
                             <div className={styles.title}>
-                            <img className={styles.functionicon} style={{width:"10%", height:"15%", alignContent:"center"}} src={vibepicker} />
+                            <img className={styles.functionicon} src={vibepicker} />
                             <div className={styles.friendmatch}>FRIEND MATCH</div>
                             </div>
-                                <div className={styles.innerfilebox} style = {{height: "82%", minHeight:"260px"}}>
+                                <div className={styles.innerfilebox2}>
 
                                 </div>
                         </div>
