@@ -910,7 +910,7 @@ Landing
   width: 100%;
   flex-grow: 1;
   height: 10%;
-  margin-bottom: 37vh;
+  margin-bottom: 34vh;
   
 }
 .innerbox2{
@@ -962,7 +962,7 @@ Landing
 }
 .innerfilebox{
   width: 90%;
-  height: 40%;
+  height: 50%;
   background-color: #42395c;
   border-radius: 15px;
   margin-left: 4%;
