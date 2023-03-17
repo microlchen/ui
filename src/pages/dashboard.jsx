@@ -23,7 +23,7 @@ export default function Dashboard() {
         <div className={styles.dashboard}>
                 <div className={styles.menu}>
                             <img className={styles.untitledartworkdash} style = {{marginTop:"40%"}} src={untitledArtwork} />
-                            <img className={styles.untitledartworkdash} style = {{marginTop:"10vh", marginLeft:"35%"}} src={home} />
+                            <img className={styles.untitledartworkdash} style = {{marginTop:"10vh", marginLeft:"35%", width:"30px"}} src={home} />
                             <img className={styles.untitledartworkdash} style = {{marginTop:"35vh", marginBottom:"40%"}} src={avatar} />
                             {/* <img className={styles.untitledartworkdash}  src={home} /> */}
 
