@@ -1,81 +1,79 @@
-import Link from 'next/link';
-// import styles from '@/styles/Home.module.css'
-// import { Card, Row, Text, Input, Spacer, Button } from "@nextui-org/react";
-import { Container, CssBaseline, Typography, Box, Grid, TextField, FormControlLabel, Checkbox, ThemeProvider, Button } from "@mui/material/";
+import * as React from "react";
+import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
 
+const Tos = () => {
 
-export default function FirstPost() {
-  function login() {
-    return (
-      <login>
-        inputs = {{}}
-      </login>
-    )
-  }
-  function open({link}) {
-    return window.open("/posts/first-post")
-  }
+  const vector = "/landing/vector1.svg";
+  const vector1 = "/landing/vector.svg";
+
   return (
-    // <ThemeProvider>
-          <Container component="main" maxWidth="xl">
-          {/* <CssBaseline />         */}
-          <Box sx={{
-              margin: 10,
-              display: 'flex',
-              flexDirection: 'column',
-              // backgroundColor: 'primary.light',
-            }}>
-                <Grid Container columnSpacing={2}>
-                <h1>Website Terms and Conditions of Use</h1>
+    <div className={styles.all}>
 
-                <h2>1. Terms</h2>
 
-                <p>By accessing this Website, accessible from https://spotify-matched.vercel.app, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
+      <div className={styles.landing} style={{ marginLeft: 0 }}>
+        <div className={styles.flexcontainer}>
 
-                <h2>2. Use License</h2>
+        </div>
 
-                <p>Permission is granted to temporarily download one copy of the materials on Spotify Matched's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+        <div className={styles.flexcontainer}>
+          <div className={styles.flexcontainer1}>
+            <div className={styles.catabsolutecontainer} style={{ marginRight: "15%" }}>
+              <span className={styles.meetyour} style={{ fontWeight: 400, color: "#dcdffb" }}>Terms and Conditions</span>
+              <span className={styles.gettheplaylistjus} style={{ fontSize: 15, lineHeight: 1.5 }}>
+                Musaic provides our services to our customers with the utmost care and attention to detail. However, there are certain risks associated with using our product/service, and we cannot guarantee the outcome or results of your use.
 
-                <ul>
-                    <li>modify or copy the materials;</li>
-                    <li>use the materials for any commercial purpose or for any public display;</li>
-                    <li>attempt to reverse engineer any software contained on Spotify Matched's Website;</li>
-                    <li>remove any copyright or other proprietary notations from the materials; or</li>
-                    <li>transferring the materials to another person or "mirror" the materials on any other server.</li>
-                </ul>
+                Therefore, we hereby disclaim any and all liability for any damages, losses, or injuries arising from the use of our product/service. By using our product/service, you agree to hold Musaic harmless from any and all claims, damages, or other liabilities that may arise as a result of your use.
 
-                <p>This will let Spotify Matched to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format. These Terms of Service has been created with the help of the <a href="https://www.termsofservicegenerator.net">Terms Of Service Generator</a>.</p>
+                Furthermore, our liability for any claims arising from the use of our product/service shall be limited to the cost of the product/service. In no event shall we be liable for any consequential, incidental, or punitive damages arising from the use of our product/service.
 
-                <h2>3. Disclaimer</h2>
+                By using our product/service, you acknowledge that you have read and understood this disclaimer and that you agree to be bound by its terms.
+              </span>
 
-                <p>All the materials on Spotify Matched’s Website are provided "as is". Spotify Matched makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Spotify Matched does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.</p>
+              <span className={styles.gettheplaylistjus} style={{ marginTop: -20, fontSize: 15, lineHeight: 1.5 }}>
+                These terms and conditions ("Terms") govern your use of the application ("App") that handles Spotify data. By using the App, you agree to be bound by these Terms. If you do not agree to these Terms, you may not use the App.
 
-                <h2>4. Limitations</h2>
+                Use of the App
+                The App is intended solely for your personal, non-commercial use. You may use the App only for the purpose of handling your Spotify data, and you may not use the App for any other purpose. You are solely responsible for any use of the App, and you agree to use the App in accordance with these Terms.
 
-                <p>Spotify Matched or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Spotify Matched’s Website, even if Spotify Matched or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.</p>
+                User Account
+                In order to use the App, you must have a valid Spotify account. You must provide accurate and complete information when creating your account. You are responsible for maintaining the confidentiality of your account information, and you agree to notify us immediately if you become aware of any unauthorized use of your account.
 
-                <h2>5. Revisions and Errata</h2>
+                Data Privacy
+                The App may collect and use certain data related to your use of Spotify, including but not limited to your listening history, playlists, and other data related to your account. By using the App, you agree that we may collect and use this data in accordance with our privacy policy.
 
-                <p>The materials appearing on Spotify Matched’s Website may include technical, typographical, or photographic errors. Spotify Matched will not promise that any of the materials in this Website are accurate, complete, or current. Spotify Matched may change the materials contained on its Website at any time without notice. Spotify Matched does not make any commitment to update the materials.</p>
+                Intellectual Property
+                The App and its content, including but not limited to text, graphics, images, and software, are the property of the App developer or its licensors, and are protected by copyright and other intellectual property laws. You may not use the App or its content for any commercial purpose without the prior written consent of the App developer.
 
-                <h2>6. Links</h2>
+                Limitation of Liability
+                The App developer will not be liable for any damages arising from your use of the App or your inability to use the App, including but not limited to direct, indirect, incidental, consequential, or punitive damages.
 
-                <p>Spotify Matched has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Spotify Matched of the site. The use of any linked website is at the user’s own risk.</p>
+                Indemnification
+                You agree to indemnify and hold the App developer harmless from any claims, damages, or other liabilities arising from your use of the App or your violation of these Terms.
 
-                <h2>7. Site Terms of Use Modifications</h2>
+                Termination
+                The App developer may terminate your use of the App at any time for any reason. Upon termination, you must cease all use of the App and delete any copies of the App that you have downloaded.
 
-                <p>Spotify Matched may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.</p>
+                Changes to these Terms
+                The App developer may update these Terms from time to time. If we make any material changes to these Terms, we will notify you by email or by posting a notice on our website. Your continued use of the App after such changes constitutes your acceptance of the new Terms.
 
-                <h2>8. Your Privacy</h2>
+                Governing Law
+                These Terms are governed by the laws of the state in which the App developer is located, without regard to its conflict of law provisions. Any dispute arising under these Terms will be resolved in the state or federal courts located in that state.
 
-                <p>Please read our <a href="https://www.gdprprivacypolicy.net/live.php?token=RYjiEytOOHcu0QGU3fMFSlUObDcusrYS">Privacy Policy</a>.</p>
+                Entire Agreement
+                These Terms constitute the entire agreement between you and the App developer regarding your use of the App, and supersede all prior agreements or understandings, whether written or oral. If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions will remain in full force and effect.
+              </span>
 
-                <h2>9. Governing Law</h2>
+            </div>
+          </div>
+        </div>
 
-                <p>Any claim related to Spotify Matched's Website shall be governed by the laws of us without regards to its conflict of law provisions.</p>
-                </Grid>
-          </Box>
-          </Container>
-        // </ThemeProvider>
-    )
-}
+      </div>
+      <span className={styles.num20238bitsterms}>
+        <span className={styles.num20238bitstermsbtext}>@2023 8BITS</span>
+      </span>
+
+    </div>
+  );
+};
+export default Tos;

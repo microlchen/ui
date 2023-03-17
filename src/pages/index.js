@@ -7,8 +7,11 @@ import About from './about.js'
 import {
   Button,
   Drawer,
-  
+
 } from '@mui/material/';
+import Tos from "./tos.js";
+import Privacy from "./privacy.js";
+
 const App = () => {
 
   const ellipse = "/landingdown/ellipse.svg";
@@ -25,12 +28,26 @@ const App = () => {
   const vector1 = "/landing/vector.svg";
   const tri = "/landing/polygon.png";
 
-  const [anchorDrawer, setAnchorDrawer] = useState(null);
-  const openDrawer = (event) => {
-    setAnchorDrawer(event.currentTarget);
+  const [anchorAbout, setAbout] = useState(null);
+  const openAbout = (event) => {
+    setAbout(event.currentTarget);
   };
-  const closeDrawer = () => {
-    setAnchorDrawer(null);
+  const closeAbout = () => {
+    setAbout(null);
+  };
+  const [anchorTos, setTos] = useState(null);
+  const openTos = (event) => {
+    setTos(event.currentTarget);
+  };
+  const closeTos = () => {
+    setTos(null);
+  };
+  const [anchorPrivacy, setPrivacy] = useState(null);
+  const openPrivacy = (event) => {
+    setPrivacy(event.currentTarget);
+  };
+  const closePrivacy = () => {
+    setPrivacy(null);
   };
 
   return (
@@ -45,13 +62,13 @@ const App = () => {
             </Button>
           </div>
           <div className={styles.navigatepages}>
-            <Button variant="text" onClick={openDrawer}>
+            <Button variant="text" onClick={openAbout}>
               <span className={styles.buttontext}>About</span>
             </Button>
             <Drawer
               anchor="left"
-              open={Boolean(anchorDrawer)}
-              onClose={closeDrawer}
+              open={Boolean(anchorAbout)}
+              onClose={closeAbout}
               PaperProps={{
                 sx: {
                   marginTop: '100px',
@@ -62,7 +79,7 @@ const App = () => {
                 }
               }}
             >
-              <About/>
+              <About />
             </Drawer>
           </div>
           <div className={styles.navigatepages}>
@@ -129,8 +146,40 @@ const App = () => {
       </div>
       <span className={styles.num20238bitsterms}>
         <span className={styles.num20238bitstermsbtext}>@2023 8BITS</span>
-        <Link href="/tos" className={styles.num20238bitstermsbtext}>Terms of Service</Link>
-        <Link href="https://www.gdprprivacypolicy.net/live.php?token=RYjiEytOOHcu0QGU3fMFSlUObDcusrYS" className={styles.num20238bitstermsbtext}>Privacy Policy</Link>
+        <div onClick={openTos} className={styles.num20238bitstermsbtext}>Terms of Service</div>
+        <div onClick={openPrivacy} className={styles.num20238bitstermsbtext}>Privacy Policy</div>
+        <Drawer
+          anchor="left"
+          open={Boolean(anchorTos)}
+          onClose={closeTos}
+          PaperProps={{
+            sx: {
+              marginTop: '100px',
+              backgroundColor: 'grey',
+              color: 'white',
+              flexGrow: 1,
+              width: '100%'
+            }
+          }}
+        >
+          <Tos />
+        </Drawer>
+        <Drawer
+          anchor="left"
+          open={Boolean(anchorPrivacy)}
+          onClose={closePrivacy}
+          PaperProps={{
+            sx: {
+              marginTop: '100px',
+              backgroundColor: 'grey',
+              color: 'white',
+              flexGrow: 1,
+              width: '100%'
+            }
+          }}
+        >
+          <Privacy />
+        </Drawer>
       </span>
 
     </div>

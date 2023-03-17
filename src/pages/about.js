@@ -33,7 +33,7 @@ const About = () => {
         <div className={styles.flexcontainer}>
           <div className={styles.flexcontainer1}>
             <div className={styles.catabsolutecontainer} style={{marginRight:"15%"}}>
-              <span className={styles.meetyour} style={{fontWeight:400, color:"#dcdffb"}}>ABOUT</span>
+              <span className={styles.meetyour} style={{fontWeight:400, color:"#dcdffb"}}>About </span>
               <span className={styles.gettheplaylistjus} style={{fontSize:15, lineHeight:1.5}}>
                     With Musaic, it’s easy to find the right playlist customized just for you and your friends.
                     Explore new genres, people, chord progression, or even choose your songs based on just your mood.
@@ -53,11 +53,7 @@ const About = () => {
         </div>
 
       </div>
-      <span className={styles.num20238bitsterms}>
-        <span className={styles.num20238bitstermsbtext}>@2023 8BITS</span>
-        <Link href="/tos" className={styles.num20238bitstermsbtext}>Terms of Service</Link>
-        <Link href="https://www.gdprprivacypolicy.net/live.php?token=RYjiEytOOHcu0QGU3fMFSlUObDcusrYS" className={styles.num20238bitstermsbtext}>Privacy Policy</Link>
-      </span>
+      
 
     </div>
   );
