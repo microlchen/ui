@@ -17,7 +17,7 @@ Landing
   background-color: #191722;
   color:white;
   flex-grow: 1;
-  /* overflow: visible; */
+  overflow: scroll;
 }
 .dashboard2 {
   width:fit-content;
