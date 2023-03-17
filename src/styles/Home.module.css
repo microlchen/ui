@@ -526,7 +526,7 @@
 }
 
 /* laptop */
-@media (min-width: 768px) {
+@media (min-width: 600px) {
  /*
 Landing
 */
@@ -773,7 +773,7 @@ Landing
 }
 
 /* mobile */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   /*
 Landing
 */
@@ -910,7 +910,7 @@ Landing
   width: 100%;
   flex-grow: 1;
   height: 10%;
-  margin-bottom: 47vh;
+  margin-bottom: 37vh;
   
 }
 .innerbox2{
