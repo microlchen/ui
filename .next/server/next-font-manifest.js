@@ -1,4 +1,4 @@
-self.__FONT_LOADER_MANIFEST={
+self.__NEXT_FONT_MANIFEST={
   "pages": {},
   "app": {},
   "appUsingSizeAdjust": false,
