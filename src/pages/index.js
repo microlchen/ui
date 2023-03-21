@@ -3,14 +3,15 @@ import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 import Link from 'next/link'
 import { useState, useEffect } from 'react';
-import About from './about.js'
+import About from './_about.js'
 import {
   Button,
   Drawer,
 
 } from '@mui/material/';
-import Tos from "./tos.js";
-import Privacy from "./privacy.js";
+import Tos from "./_tos.js";
+import Privacy from "./_privacy.js";
+
 
 const App = () => {
 
