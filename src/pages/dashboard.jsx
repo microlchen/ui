@@ -5,7 +5,12 @@ import {
     Drawer,
 } from "@mui/material";
 import { useState, useEffect } from 'react';
-import Lobby from "./lobby";
+import Lobby from "./_lobby";
+import FriendListSidebar from "@/components/_friendbar";
+import FullCanvasButton from "@/components/_deleteuserdata";
+import PlaylistSidebar from "@/components/_generatelistbar";
+import TrackList from "@/components/_scrolltracklist";
+import Spinner from "@/components/_loadingscreen";
 
 export default function Dashboard() {
     const untitledArtwork = "/landing/logo.png";
@@ -22,6 +27,10 @@ export default function Dashboard() {
     const closeLobby = () => {
         setLobby(null);
     };
+
+    const deleteuser = () => {
+        console.log("add these later")
+      };
 
     return (
         <div className={styles.all}>
@@ -75,7 +84,7 @@ export default function Dashboard() {
                                         //     }
                                         // }}
                                     >
-                                        <Lobby />
+                                        < Spinner/>
                                     </Drawer>
 
                                 </div>
