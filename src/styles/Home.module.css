@@ -524,7 +524,22 @@
   margin-left: 0%;
 
 }
+.textfield{
+  margin-top:5%; 
+  background-color:#c1c8ff; 
+  border-radius: 10px;
+  height: 35px;
+  width: 90%;
+  border-color: #d4d9ff;
+  padding: 10px;
+  color: #191722;
+  margin-bottom:5%;
+  margin-left:5%;
+  margin-right:10%;
+  
 
+
+}
 /* laptop */
 @media (min-width: 500px) {
  /*

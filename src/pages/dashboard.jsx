@@ -51,19 +51,7 @@ export default function Dashboard() {
                                 <div className={styles.friendmatch}>FRIEND MATCH</div>
                             </div>
                             <div className={styles.innerfilebox}>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className={styles.innerbox2}>
-                        <img className={styles.vectordash} src={vector} />
-                        <div className={styles.halfsize2} >
-                            <div className={styles.title}>
-                                <img className={styles.functionicon} src={vibepicker} />
-                                <div className={styles.friendmatch}>FRIEND MATCH&nbsp;&nbsp;
-
-
-                                    <input className={styles.textfield} type="text" id="lobby" name="lobby"></input>
+                            <input className={styles.textfield} type="text" id="lobby" name="lobby"></input>
                                     <Button onClick={openLobby} for="lobby">Join Lobby</Button>
                                     <Drawer
                                         anchor="right"
@@ -86,12 +74,23 @@ export default function Dashboard() {
                                     >
                                         < Spinner/>
                                     </Drawer>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.innerbox2}>
+                        <img className={styles.vectordash} src={vector} />
+                        <div className={styles.halfsize2} >
+                            <div className={styles.title}>
+                                <img className={styles.functionicon} src={vibepicker} />
+                                <div className={styles.friendmatch}>FRIEND MATCH&nbsp;&nbsp;  
 
                                 </div>
 
                             </div>
                             <div className={styles.innerfilebox2}>
-
+                            <div style = {{}}>  Your playlist name</div> 
+                            <input className={styles.textfield}  type="text" id="playlist" name="playlist" ></input>
+                            <Button for="playlist" variant="contained">Create playlist</Button>
                             </div>
                         </div>
                     </div>
