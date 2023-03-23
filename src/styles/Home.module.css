@@ -531,15 +531,21 @@
   height: 35px;
   width: 90%;
   border-color: #d4d9ff;
-  padding: 10px;
+  padding: 5px 10px 5px 10px;
   color: #191722;
   margin-bottom:5%;
   margin-left:5%;
   margin-right:10%;
-  
-
+}
+.textfield::placeholder { 
+  color: #36353a;
+}
+.textfield::selection { 
+  background-color: #36353a;
+  color: #36353a;
 
 }
+
 /* laptop */
 @media (min-width: 500px) {
  /*
@@ -681,7 +687,7 @@ Landing
 .friendmatch{
   font-family: Inter, sans-serif;
   font-size: 1rem;
-  margin-top: 7%;
+  margin-top: 8%;
   letter-spacing: 2px;
 }
 .innerbox{

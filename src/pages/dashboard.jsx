@@ -82,14 +82,14 @@ export default function Dashboard() {
                         <div className={styles.halfsize2} >
                             <div className={styles.title}>
                                 <img className={styles.functionicon} src={vibepicker} />
-                                <div className={styles.friendmatch}>FRIEND MATCH&nbsp;&nbsp;  
+                                <div className={styles.friendmatch} style={{marginTop:"10%"}}>VIBE PICKER&nbsp;&nbsp;  
 
                                 </div>
 
                             </div>
                             <div className={styles.innerfilebox2}>
-                            <div style = {{}}>  Your playlist name</div> 
-                            <input className={styles.textfield}  type="text" id="playlist" name="playlist" ></input>
+
+                            <input className={styles.textfield}  type="text" id="playlist" name="playlist" placeholder="Type your playlist name here"></input>
                             <Button for="playlist" variant="contained">Create playlist</Button>
                             </div>
                         </div>
