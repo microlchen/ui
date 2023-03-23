@@ -8,9 +8,9 @@ import MainButton from './_generalbutton';
 
 function Lobby2() {
   const [users, setUsers] = useState([
-    { id: 1, name: 'Existing User' },
-    { id: 2, name: 'Press Ready to Join' },
-    { id: 3, name: 'Generates a PlayList on Set Limit' },
+    { id: 1, name: 'User' },
+    { id: 2, name: 'User' },
+    { id: 3, name: 'User' },
   ]);
 
   const addUser = (newUser) => {
@@ -46,12 +46,12 @@ function Lobby2() {
         <form onSubmit={handleSubmit}>
           <input className={styles.textfield} type="text" name="name" required placeholder="Enter Your Name"/>
           <Button type="submit">Join Lobby</Button>
-          <h2>Current Party</h2>
+          <div className={styles.iagreewiththeter}>Current Party</div>
           <ul>
             {users.map((user) => (
-              <div key={user.id}>
+              <div className={styles.iagreewiththeter} key={user.id}>
                 {/* NEED TO ADD STYLES */}
-                {user.name} <button onClick={() => removeUser(user.id)}>Leave lobby</button>
+                {user.name} <button className={styles.buttontext} onClick={() => removeUser(user.id)}>Leave lobby</button>
               </div>
             ))}
           </ul>

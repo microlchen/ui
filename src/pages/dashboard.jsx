@@ -3,6 +3,8 @@ import styles from '@/styles/Home.module.css'
 import {
     Button,
     Drawer,
+    Menu,
+    MenuItem
 } from "@mui/material";
 import { useState, useEffect } from 'react';
 import Lobby from "./_lobby";
@@ -34,11 +36,14 @@ export default function Dashboard() {
         console.log("add these later")
     };
 
-    const [showMenu, setShowMenu] = useState(false);
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
 
-    function handleClick() {
-      setShowMenu(!showMenu);
-    }
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
+    const [anchorEl, setAnchorEl] = React.useState(null);
 
     return (
         <div className={styles.all}>
@@ -47,8 +52,8 @@ export default function Dashboard() {
                     <img className={styles.untitledartworkdash1} src={untitledArtwork} />
                     <img className={styles.untitledartworkdash2} src={home} />
                     <div>
-                    <img onClick={handleClick} className={styles.untitledartworkdash3} src={avatar} />
-                    {showMenu && <Menua />}
+                        <img onClick={handleClick} className={styles.untitledartworkdash3} src={avatar} />
+                        <Menua function={handleClose} anchor={anchorEl}/>
                     </div>
 
                 </div>
@@ -56,7 +61,7 @@ export default function Dashboard() {
                     <div className={styles.innerbox}>
                         <div className={styles.landingdash}>Hi, Y/N</div>
                         <img className={styles.image} src={untitledArtwork} />
-                        <Lobby2/>
+                        <Lobby2 />
                     </div>
                     <div className={styles.innerbox2}>
                         <img className={styles.vectordash} src={vector} />
