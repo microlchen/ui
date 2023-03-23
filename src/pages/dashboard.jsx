@@ -24,18 +24,6 @@ export default function Dashboard() {
     const vector = "/dashboard/vector.png";
     const avatar = "/dashboard/Avatar.png";
 
-    const [anchorLobby, setLobby] = useState(null);
-    const openLobby = (event) => {
-        setLobby(event.currentTarget);
-    };
-    const closeLobby = () => {
-        setLobby(null);
-    };
-
-    const deleteuser = () => {
-        console.log("add these later")
-    };
-
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
     };
@@ -45,6 +33,14 @@ export default function Dashboard() {
     };
     const [anchorEl, setAnchorEl] = React.useState(null);
 
+    const [anchorPlaylist, setPlaylist] = useState(null);
+    const openPlaylist = (event) => {
+        setPlaylist(event.currentTarget);
+    };
+    const closePlaylist = () => {
+        setPlaylist(null);
+    };
+
     return (
         <div className={styles.all}>
             <div className={styles.dashboard}>
@@ -53,7 +49,7 @@ export default function Dashboard() {
                     <img className={styles.untitledartworkdash2} src={home} />
                     <div>
                         <img onClick={handleClick} className={styles.untitledartworkdash3} src={avatar} />
-                        <Menua function={handleClose} anchor={anchorEl}/>
+                        <Menua function={handleClose} anchor={anchorEl} />
                     </div>
 
                 </div>
@@ -76,13 +72,34 @@ export default function Dashboard() {
                             <div className={styles.innerfilebox2}>
 
                                 <input className={styles.textfield} type="text" id="playlist" name="playlist" placeholder="Type your playlist name here"></input>
-                                <Button for="playlist" variant="contained">Create playlist</Button>
+                                <Button onClick={openPlaylist}for="playlist" variant="contained">Create playlist</Button>
+                                
+                                <Drawer
+                                    anchor="left"
+                                    open={Boolean(anchorPlaylist)}
+                                    onClose={closePlaylist}
+                                    PaperProps={{
+                                        sx: {
+                                            marginTop: '380px',
+                                            backgroundColor: 'black',
+                                            color: 'white',
+                                            flexGrow: 1,
+                                            width: '34%',
+                                            marginLeft: '800px',
+                                            height: '330px',
+                                            overflow: 'scroll'
+                                        }
+                                    }}
+                                >
+                                    <TrackList tracks={[]} />
+                                </Drawer>
                             </div>
                         </div>
                     </div>
                 </div>
 
             </div>
+
 
         </div>
     )
