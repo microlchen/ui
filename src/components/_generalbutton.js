@@ -3,16 +3,17 @@ import {
     Button,
 } from "@mui/material";
 
-const Logout = ({ props, function1 }) => {
+
+const MainButton = (props) => {
     
 
     return(
-        <Button variant="text" onClick={function1}>
-            <span className={styles.buttontext}>{props}</span>
+        <Button variant="text" onClick={props.function1}>
+            <span className={styles.buttontext}>{props.name}</span>
         </Button>
     );
 }
-export default Logout;
+export default MainButton;
 
 //HONESTLY THIS COULD BE ANY GENERAL BUTTON
 
