@@ -526,7 +526,7 @@
 }
 
 /* laptop */
-@media (min-width: 600px) {
+@media (min-width: 500px) {
  /*
 Landing
 */
@@ -602,7 +602,7 @@ Landing
   background-size: cover;
   margin-bottom: 100%;
   margin-top:10vh,; 
-  margin-left:40%;
+  margin-left:30%;
   width:30px;
 
   margin-right: 2%;
@@ -773,7 +773,7 @@ Landing
 }
 
 /* mobile */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   /*
 Landing
 */
@@ -987,12 +987,4 @@ Landing
   /* flex-grow: 1; */
   flex-direction: column;
 }
-}
-
-
-/*
-Lobby stuff
-*/
-.textfield{
-  height: 50%;
 }
