@@ -24,8 +24,9 @@ export default function Dashboard() {
     const vibepicker = "/dashboard/vibepicker.png";
     const vector = "/dashboard/vector.png";
     const avatar = "/dashboard/Avatar.png";
-    
-    var ready = true;
+    const [ready, changeReadyState] = useState(false);
+    const [avatorColor, changeAvatorColor] = useState(false);
+
 
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
@@ -68,20 +69,10 @@ export default function Dashboard() {
                         width:"60px", 
                         height: "60px", 
                         borderRadius:"30px",
-                        background: "#E0765E",
+                        background: !avatorColor? "#E0765E": "#64936E",
                         alignSelf:"center",
                         display: "flex"}}>
                         <img classname = {styles.untitledartworkdash3} style = {{marginTop: "5px", marginBottom: "5px", marginRight:"10px",marginLeft:"5px",width:"50px", height:"auto"}} src={avatar} />
-                        
-                        <div style = {{
-                            flexDirection:"row", 
-                            width:"20px", 
-                            height: "20px", 
-                            marginLeft: "30%",
-                            borderRadius:"30px",
-                            background: "#E0765E",
-                            alignSelf:"center"}}>
-                        </div>
                     </div>
 
                     
@@ -96,10 +87,10 @@ export default function Dashboard() {
                         alignSelf:"center",
                         marginBottom:"40px",
                         display: "flex"}}>
-                        {ready?
-                        <Button variant="contained" onClick={()=>{ready = false}} sx={{height:50, width:150,color:"primary.textD"}}>ready</Button>
+                        {!ready?
+                        <Button variant="contained" onClick={()=>{changeReadyState(true); changeAvatorColor(true)}} sx={{height:50, width:150,color:"primary.textD"}}>ready</Button>
                         :
-                        <Button variant="outlined" sx={{height:50, width:150,borderWidth:2,color:"primary.textD"}}>ready</Button>
+                        <Button variant="outlined" sx={{height:50, width:150,borderWidth:2, borderColor:"primary.ready", color: "primary.ready"}}>I'm ready</Button>
                         }
                     </div>
                 </div>

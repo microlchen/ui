@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
         textD: '#282634',
         textL: '#CAD6FF',
 
-        // button:'#7D89EC'
+        ready:'#64936E'
       },
       secondary: {
         main: '#9BB9D8',
