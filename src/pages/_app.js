@@ -13,9 +13,13 @@ export default function App({ Component, pageProps }) {
         dark: '#493D7A',
         textD: '#282634',
         textL: '#CAD6FF',
-
-        ready:'#64936E'
       },
+      button:{
+        color:'#64936E',
+        '&:hover': {
+          backgroundColor: '#84C091',
+      }
+    },
       secondary: {
         main: '#9BB9D8',
         light: '#92AFCE',

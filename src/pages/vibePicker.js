@@ -90,7 +90,7 @@ export default function Dashboard() {
                         {!ready?
                         <Button variant="contained" onClick={()=>{changeReadyState(true); changeAvatorColor(true)}} sx={{height:50, width:150,color:"primary.textD"}}>ready</Button>
                         :
-                        <Button variant="outlined" sx={{height:50, width:150,borderWidth:2, borderColor:"primary.ready", color: "primary.ready"}}>I'm ready</Button>
+                        <Button variant="outlined" sx={{height:50, width:150,borderWidth:2, borderColor:"button.color", color: "button.color", }}>I'm ready</Button>
                         }
                     </div>
                 </div>

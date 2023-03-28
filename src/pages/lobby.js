@@ -79,7 +79,7 @@ export default function Dashboard() {
                 <div className={styles.dashboardbox} style = {{flexDirection: "column",marginTop:"30px",justifyContent:"space-between"}}>
                     <div style = {{
                         flexDirection:"row", 
-                        width:"30vw", 
+                        width:"200px", 
                         height: "60px", 
                         borderRadius:"30px",
                         background: "#BAC0F1",
