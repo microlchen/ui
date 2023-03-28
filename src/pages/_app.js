@@ -10,8 +10,11 @@ export default function App({ Component, pageProps }) {
         main: '#8791F9',
         mainPage: '#47A85A',
         light: '#cad6ff',
-        dark: '#394221',
-        text: "white"
+        dark: '#493D7A',
+        textD: '#282634',
+        textL: '#CAD6FF',
+
+        // button:'#7D89EC'
       },
       secondary: {
         main: '#9BB9D8',

@@ -9,7 +9,7 @@ const Lobby = () => {
       };
 
     return (
-        <div className={styles.all}>
+        <div className={styles.all} style = {{width: "100"}}>
 
 
             <div className={styles.landing} style={{ marginLeft: 0 }}>
