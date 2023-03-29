@@ -1,4 +1,5 @@
-;const Banner = (props) => {
+import * as React from "react";
+const Banner = (props) => {
 
 
     return (

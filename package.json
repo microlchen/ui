@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@daily-co/daily-js": "^0.41.0",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.11",

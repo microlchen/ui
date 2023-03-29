@@ -5,6 +5,7 @@ import MainButton from "@/components/active/_generalbutton"
 import Center from "@/components/active/_center";
 import Banner from "@/components/active/_bannerandsub";
 import Lobbylist from "@/components/active/_lobbyparty";
+import MainBox from "@/components/active/_mainbox";
 
 export default function Dashboard() {
     const untitledArtwork = "/landing/logo.png";
@@ -42,13 +43,14 @@ export default function Dashboard() {
 
     return (
 
-        <div className={styles.dashboard} style={{ height: "100vh", flexDirection: "column", backgroundColor: "#282634" }}>
-            <Banner main="Lobby" sub="INVITATION LINK:" more="http://localhost:3000/lobby" />
-            <div className={styles.dashboardbox} style={{ flexDirection: "column", marginTop: "30px", justifyContent: "space-between" }}>
-                <Lobbylist users={users} />
+        <MainBox object1={<Banner main="Lobby" sub="INVITATION LINK:" more="http://localhost:3000/lobby" />}
+            object2={<div className={styles.dashboardbox} style={{ flexDirection: "column", marginTop: "30px", justifyContent: "space-between" }}>
+                <Center object={<Lobbylist users={users} />} />
                 {/* <div>{enterRoom()}</div> */}
                 <Center object={<MainButton name="continue" loc="\vibePicker" />} />
-            </div>
-        </div>
+            </div>} />
+
+
+
     )
 }

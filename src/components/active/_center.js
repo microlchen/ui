@@ -1,3 +1,5 @@
+import * as React from "react";
+
 const Center = (props) => {
     
 
@@ -12,6 +14,8 @@ const Center = (props) => {
             marginBottom:"40px",
             display: "flex"}}>
             {props.object}
+            {props.object2}
+            {props.object3}
         </div>
     );
 }

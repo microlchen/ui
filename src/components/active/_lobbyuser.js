@@ -1,4 +1,5 @@
 import styles from '@/styles/Home.module.css'
+import * as React from "react";
 
 const User = (props) => {
 

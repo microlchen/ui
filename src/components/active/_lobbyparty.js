@@ -1,4 +1,5 @@
 import User from './_lobbyuser';
+import * as React from "react";
 
 const Lobbylist = ({ users }) => {
 
