@@ -13,7 +13,7 @@ import FullCanvasButton from "@/components/_deleteuserdata";
 import PlaylistSidebar from "@/components/_generatelistbar";
 import TrackList from "@/components/_scrolltracklist";
 import Spinner from "@/components/_loadingscreen";
-import Menua from "@/components/_avatarmenu";
+import Menua from "@/components/active/_avatarmenu";
 import Lobby2 from "@/components/_lobbytesting";
 
 export default function Dashboard() {
@@ -59,43 +59,7 @@ export default function Dashboard() {
                         <img className={styles.image} src={untitledArtwork} />
                         <Lobby2 />
                     </div>
-                    <div className={styles.innerbox2}>
-                        <img className={styles.vectordash} src={vector} />
-                        <div className={styles.halfsize2} >
-                            <div className={styles.title}>
-                                <img className={styles.functionicon} src={vibepicker} />
-                                <div className={styles.friendmatch} style={{ marginTop: "10%" }}>VIBE PICKER&nbsp;&nbsp;
-
-                                </div>
-
-                            </div>
-                            <div className={styles.innerfilebox2}>
-
-                                <input className={styles.textfield} type="text" id="playlist" name="playlist" placeholder="Type your playlist name here"></input>
-                                <Button onClick={openPlaylist}for="playlist" variant="contained">Create playlist</Button>
-                                
-                                <Drawer
-                                    anchor="left"
-                                    open={Boolean(anchorPlaylist)}
-                                    onClose={closePlaylist}
-                                    PaperProps={{
-                                        sx: {
-                                            marginTop: '380px',
-                                            backgroundColor: 'black',
-                                            color: 'white',
-                                            flexGrow: 1,
-                                            width: '34%',
-                                            marginLeft: '800px',
-                                            height: '330px',
-                                            overflow: 'scroll'
-                                        }
-                                    }}
-                                >
-                                    <TrackList tracks={[]} />
-                                </Drawer>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
 
             </div>

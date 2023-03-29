@@ -13,9 +13,9 @@ import FullCanvasButton from "@/components/_deleteuserdata";
 import PlaylistSidebar from "@/components/_generatelistbar";
 import TrackList from "@/components/_scrolltracklist";
 import Spinner from "@/components/_loadingscreen";
-import Menua from "@/components/_avatarmenu";
+import Menua from "@/components/active/_avatarmenu";
 import Lobby2 from "@/components/_lobbytesting";
-import MainButton from "@/components/_generalbutton"
+import MainButton from "@/components/active/_generalbutton"
 
 export default function Dashboard() {
     const untitledArtwork = "/landing/logo.png";

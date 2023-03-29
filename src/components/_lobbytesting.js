@@ -4,7 +4,7 @@ import {
   Button,
   Drawer,
 } from "@mui/material";
-import MainButton from './_generalbutton';
+import MainButton from './active/_generalbutton';
 
 function Lobby2() {
   const [users, setUsers] = useState([
