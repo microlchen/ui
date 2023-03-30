@@ -693,7 +693,7 @@ Landing
 }
 .innerbox{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   margin-left: 5%;
   flex-direction: column;
   width: 48%;
@@ -724,10 +724,11 @@ Landing
 }
 
 .landingdash {
-  margin-top: 15%;
+  /* margin-top: 15%; */
   font-family: Inter, sans-serif;
+  align-self: center;
   font-weight: 100;
-  font-size: 6vw;
+  font-size: 80px;
   line-height: 16%;
   letter-spacing: 0.08em;
 

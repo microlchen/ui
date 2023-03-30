@@ -47,7 +47,7 @@ export default function Dashboard() {
             object2={<div className={styles.dashboardbox} style={{ flexDirection: "column", marginTop: "30px", justifyContent: "space-between" }}>
                 <Center object={<Lobbylist users={users} />} />
                 {/* <div>{enterRoom()}</div> */}
-                <Center object={<MainButton name="continue" loc="\vibePicker" sx={{ height: 50, width: 150}}/>} />
+                <Center object={<MainButton name="continue" loc="\vibePicker" />} />
             </div>} />
 
 
