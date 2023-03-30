@@ -14,14 +14,15 @@ const Banner = (props) => {
                 width: "100vw",
                 height: "120px",
                 minWidth: "100vw",
-                justifyContent: "space-around",
+                justifyContent: "space-between",
                 background: "#494362",
                 display: "flex"
             }}>
+                <IconButton aria-label="exit" href ="/dashboard" sx={{fontSize:"30px", color: "#CAD6FF", transform: 'rotate(-180deg)', alignSelf: "center", marginTop: "10px", marginLeft:"5px", marginRight:"-10px" }}><LogoutIcon/></IconButton>
                 <div style={{ justifyContent: "space-around", flexDirection: "column", fontFamily: "Inter, sans-serif", fontSize: "200%", fontWeight: "100", color: "#CAD6FF", letterSpacing: "5px", alignSelf: "center", marginTop: "10px" }}>
                     {props.main}
                 </div>
-                <IconButton aria-label="exit" href ="/dashboard" sx={{fontSize:"30px", color: "#CAD6FF", transform: 'rotate(-180deg)', alignSelf: "center", marginTop: "10px", marginLeft:"10px", marginRight:"-10px" }}><LogoutIcon/></IconButton>
+                <div sx={{width:80, color: "#494362", alignSelf: "center", marginTop: "10px", marginLeft:"10px", marginRight:"10px" }}><div style={{width:"30px"}}/></div>
             </div>
             <div style={{
                 flexDirection: "row",
