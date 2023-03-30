@@ -1,6 +1,8 @@
 import * as React from "react";
 
 import LogoutIcon from '@mui/icons-material/Logout';
+import IconButton from '@mui/material/IconButton'; 
+
 
 const Banner = (props) => {
 
@@ -19,6 +21,7 @@ const Banner = (props) => {
                 <div style={{ justifyContent: "space-around", flexDirection: "column", fontFamily: "Inter, sans-serif", fontSize: "200%", fontWeight: "100", color: "#CAD6FF", letterSpacing: "5px", alignSelf: "center", marginTop: "10px" }}>
                     {props.main}
                 </div>
+                <IconButton aria-label="exit" href ="/dashboard" sx={{fontSize:"30px", color: "#CAD6FF", transform: 'rotate(-180deg)', alignSelf: "center", marginTop: "10px", marginLeft:"10px", marginRight:"-10px" }}><LogoutIcon/></IconButton>
             </div>
             <div style={{
                 flexDirection: "row",
@@ -38,7 +41,7 @@ const Banner = (props) => {
                     {props.more}
                 </div>
             </div>
-            <LogoutIcon sx={{fontSize:"50px", mt: "-7%", ml: "1%", color: "#CAD6FF", transform: 'rotate(-180deg)' }}/>
+           
         </>
 
     );
