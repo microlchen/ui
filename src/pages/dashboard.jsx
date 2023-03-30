@@ -15,6 +15,7 @@ import TrackList from "@/components/_scrolltracklist";
 import Spinner from "@/components/_loadingscreen";
 import Menua from "@/components/active/_avatarmenu";
 import Lobby2 from "@/components/_lobbytesting";
+import MainButton from "@/components/active/_generalbutton"
 
 export default function Dashboard() {
     const untitledArtwork = "/landing/logo.png";
@@ -23,6 +24,7 @@ export default function Dashboard() {
     const vibepicker = "/dashboard/vibepicker.png";
     const vector = "/dashboard/vector.png";
     const avatar = "/dashboard/Avatar.png";
+    const playlistNumber = 7;
 
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
@@ -56,8 +58,10 @@ export default function Dashboard() {
                 <div className={styles.dashboardbox}>
                     <div className={styles.innerbox}>
                         <div className={styles.landingdash}>Hi, Y/N</div>
-                        <img className={styles.image} src={untitledArtwork} />
-                        <Lobby2 />
+                        <div className={styles.landingdash} style = {{fontSize:"15px", letterSpacing:"5px", marginTop:"50px", marginBottom:"50px"}}>You have created {playlistNumber} playlists</div>
+                        <MainButton name="Create playlist" loc="\lobby" />
+                        {/* <img className={styles.image} src={untitledArtwork} /> */}
+                        
                     </div>
                     
                 </div>
