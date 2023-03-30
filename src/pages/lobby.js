@@ -43,11 +43,11 @@ export default function Dashboard() {
 
     return (
 
-        <MainBox object1={<Banner main="Lobby" sub="INVITATION LINK:" more="http://localhost:3000/lobby" />}
+        <MainBox object1={<Banner main="LOBBY" sub="INVITATION LINK:" more="http://localhost:3000/lobby" />}
             object2={<div className={styles.dashboardbox} style={{ flexDirection: "column", marginTop: "30px", justifyContent: "space-between" }}>
                 <Center object={<Lobbylist users={users} />} />
                 {/* <div>{enterRoom()}</div> */}
-                <Center object={<MainButton name="continue" loc="\vibePicker" />} />
+                <Center object={<MainButton name="continue" loc="\vibePicker" sx={{ height: 50, width: 150}}/>} />
             </div>} />
 
 

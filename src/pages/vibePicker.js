@@ -42,7 +42,7 @@ export default function Dashboard() {
 
     return (
         <div className={styles.all} style={{ backgroundColor: "#282634" }}>
-            <MainBox object1={<Banner main="VIBE PCIKER" sub="CREATE YOUR MUSIC:" more="TRY IT TODAY" />}
+            <MainBox object1={<Banner main="VIBE PICKER" sub="CREATE YOUR MUSIC:" more="TRY IT TODAY" />}
                 object2={<div className={styles.dashboardbox} style={{ flexDirection: "column", marginTop: "30px", justifyContent: "space-between" }}>
                     <Vibecontent avatar={avatar} avatarcolor={avatorColor} />
                     {/* <div>{enterRoom()}</div> */}

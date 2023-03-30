@@ -10,7 +10,7 @@ const MainButton = (props) => {
 
     return(
         
-            <Button variant="contained" href={props.loc} sx={{height:"150%", width:"100%",color:"primary.textD"}}>{props.name}</Button>
+            <Button variant="contained" href={props.loc} sx={{height:50, width:150,color:"primary.textD"}}>{props.name}</Button>
         
     );
 }
