@@ -50,7 +50,7 @@ export default function Dashboard() {
                         <Vibecontent avatar={avatar} avatarcolor={false} />
                     </div>
                     {/* <div>{enterRoom()}</div> */}
-                    <TextField variant="outlined" label= "Enter your vibe here" multiline rows={3} sx={{width:"50vw", flexGrow:7, alignSelf:"center", flexdirection:"column" ,justifySelf:"space-around", background:"primary"}}></TextField>
+                    <TextField disabled = {ready} variant="outlined" label= "Enter your vibe here" multiline rows={3} sx={{width:"50vw", flexGrow:7, alignSelf:"center", flexdirection:"column" ,justifySelf:"space-around", background:"primary"}}></TextField>
                     <Center object={!ready ?
                         <Button variant="contained" onClick={() => { changeReadyState(true); changeAvatorColor(true) }} sx={{ height: 50, width: 150, color: "primary.textD" }}>ready</Button>
                         :
