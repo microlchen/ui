@@ -38,7 +38,7 @@ const Banner = (props) => {
                     {props.more}
                 </div>
             </div>
-            <LogoutIcon sx={{fontSize:"50px", mt: "-7%", ml: "1%", color: "#CAD6FF" }}/>
+            <LogoutIcon sx={{fontSize:"50px", mt: "-7%", ml: "1%", color: "#CAD6FF", transform: 'rotate(-180deg)' }}/>
         </>
 
     );
