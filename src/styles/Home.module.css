@@ -562,7 +562,7 @@ Landing
   /* justify-content: space-between; */
   align-items: flex-start;
   display: flex;
-  background-color: #211f2e;
+  background-color: #1f1e2b;
   color:white;
   flex-grow: 1;
   overflow: scroll;
@@ -810,7 +810,7 @@ Landing
   justify-content: space-between;
   align-items: flex-start;
   display: flex;
-  background-color: #191722;
+  background-color: #1f1e2b;
   color:white;
   flex-grow: 1;
   
