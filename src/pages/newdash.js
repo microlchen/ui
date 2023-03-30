@@ -48,7 +48,7 @@ export default function Dashboard() {
             <div className={styles.dashboard}>
                 <div className={styles.menu}>
                     <img className={styles.untitledartworkdash1} src={untitledArtwork} />
-                    <img className={styles.untitledartworkdash2} src={home} />
+                    <img src={home} />
                     <div>
                         <img onClick={handleClick} className={styles.untitledartworkdash3} src={avatar} />
                         <Menua function={handleClose} anchor={anchorEl} />
@@ -57,7 +57,7 @@ export default function Dashboard() {
                 </div>
                 <div className={styles.dashboardbox}>
                     <div className={styles.innerbox}>
-                        <div className={styles.landingdash}>Hi, Y/N</div>
+                        <Center object={<div className={styles.landingdash}>Hi, Y/N</div>}/>
                         <Center object={<MainButton name="READY SOLO" loc="\vibePicker" />} />
                         <Center object={<MainButton name="READY MULTI" loc="\vibePicker" />} />
                         

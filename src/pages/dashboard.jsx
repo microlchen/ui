@@ -16,6 +16,7 @@ import Spinner from "@/components/_loadingscreen";
 import Menua from "@/components/active/_avatarmenu";
 import Lobby2 from "@/components/_lobbytesting";
 import MainButton from "@/components/active/_generalbutton"
+import MenuaItems from "@/components/index/_menuaitems";
 
 export default function Dashboard() {
     const untitledArtwork = "/landing/logo.png";
@@ -47,8 +48,9 @@ export default function Dashboard() {
         <div className={styles.all}>
             <div className={styles.dashboard}>
                 <div className={styles.menu}>
-                    <img className={styles.untitledartworkdash1} src={untitledArtwork} />
-                    <img className={styles.untitledartworkdash2} src={home} />
+                    <MenuaItems source={untitledArtwork}/>
+                    <MenuaItems source={home}/>
+
                     <div>
                         <img onClick={handleClick} className={styles.untitledartworkdash3} src={avatar} />
                         <Menua function={handleClose} anchor={anchorEl} />
