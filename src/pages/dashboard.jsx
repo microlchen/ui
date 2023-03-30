@@ -18,7 +18,7 @@ import Lobby2 from "@/components/_lobbytesting";
 import MainButton from "@/components/active/_generalbutton"
 import MenuaItems from "@/components/index/_menuaitems";
 
-export default function Dashboard() {
+const Dashboard = (props) => {
     const untitledArtwork = "/landing/logo.png";
     const home = "/dashboard/home.png";
     const friend = "/dashboard/friend.png";
@@ -61,7 +61,7 @@ export default function Dashboard() {
                     <div className={styles.innerbox}>
                         <div className={styles.landingdash}>Hi, Y/N</div>
                         <div className={styles.landingdash} style = {{fontSize:"15px", letterSpacing:"5px", marginTop:"50px", marginBottom:"50px"}}>You have created {playlistNumber} playlists</div>
-                        <MainButton name="Create playlist" loc="\lobby" />
+                        <MainButton name="Create playlist" loc="\lobby"  height="50px" width="200px"/>
                         {/* <img className={styles.image} src={untitledArtwork} /> */}
                         
                     </div>
@@ -74,3 +74,4 @@ export default function Dashboard() {
         </div>
     )
 }
+export default Dashboard;

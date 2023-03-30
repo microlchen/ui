@@ -6,9 +6,13 @@ import * as React from "react";
 
 
 const MainButton = (props) => {
+
+    const hsize = props.height;
+    const wsize = props.weight;
+
     return(
         
-            <Button variant="contained" href={props.loc} sx={{height:50, width:200,color:"primary.textD", alignSelf:"center"}}>{props.name}</Button>
+            <Button variant="contained" href={props.loc} sx={{height:hsize, width:wsize,color:"primary.textD", alignSelf:"center"}}>{props.name}</Button>
         
     );
 }
