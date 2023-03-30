@@ -4,7 +4,8 @@ import {
     Button,
     Drawer,
     Menu,
-    MenuItem
+    MenuItem,
+    TextField
 } from "@mui/material";
 import { useState, useEffect } from 'react';
 import Banner from "@/components/active/_bannerandsub";
@@ -43,9 +44,13 @@ export default function Dashboard() {
     return (
         <div className={styles.all} style={{ backgroundColor: "#282634" }}>
             <MainBox object1={<Banner main="VIBE PICKER" sub="CREATE YOUR MUSIC:" more="TRY IT TODAY" />}
-                object2={<div className={styles.dashboardbox} style={{ flexDirection: "column", marginTop: "30px", justifyContent: "space-between" }}>
-                    <Vibecontent avatar={avatar} avatarcolor={avatorColor} />
+                object2={<div className={styles.dashboardbox} style={{ flexDirection: "column", marginTop: "30px", justifyContent:"flex-start" }}>
+                    <div style={{ flexDirection: "row", display:"flex", justifyContent:"space-between", alignSelf:"center", flexGrow:3}}>
+                        <Vibecontent avatar={avatar} avatarcolor={avatorColor} />
+                        <Vibecontent avatar={avatar} avatarcolor={false} />
+                    </div>
                     {/* <div>{enterRoom()}</div> */}
+                    <TextField variant="outlined" label= "Enter your vibe here" multiline rows={3} sx={{width:"50vw", flexGrow:7, alignSelf:"center", flexdirection:"column" ,justifySelf:"space-around", background:"primary"}}></TextField>
                     <Center object={!ready ?
                         <Button variant="contained" onClick={() => { changeReadyState(true); changeAvatorColor(true) }} sx={{ height: 50, width: 150, color: "primary.textD" }}>ready</Button>
                         :

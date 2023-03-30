@@ -11,6 +11,8 @@ const Vibecontent = (props) => {
             width: "60px",
             height: "60px",
             borderRadius: "30px",
+            marginLeft:"10px",
+            marginRight:"10px",
             background: !props.avatarcolor ? "#E0765E" : "#64936E",
             alignSelf: "center",
             display: "flex"
