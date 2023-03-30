@@ -1,4 +1,7 @@
 import * as React from "react";
+
+import LogoutIcon from '@mui/icons-material/Logout';
+
 const Banner = (props) => {
 
 
@@ -35,6 +38,7 @@ const Banner = (props) => {
                     {props.more}
                 </div>
             </div>
+            <LogoutIcon sx={{fontSize:"50px", mt: "-7%", ml: "1%", color: "#CAD6FF" }}/>
         </>
 
     );
